@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+}
+html{
+    font-family: cursive;
+    scroll-behavior: smooth;
+}
+/*div{
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    font-size: large;
+}
+.vish{
+    font-family: fantasy;
+    color: blue;
+    font-size: x-large;
+
+}
+#vish{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 19, 27);
+    font-size: x-large;
+
+}*/
+div h2 h1 p{
+    background-color: aliceblue;
+    color: black;
+}
