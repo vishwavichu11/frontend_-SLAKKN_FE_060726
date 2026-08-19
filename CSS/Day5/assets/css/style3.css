@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #050709;
+  color: #bcc4aa;
+  line-height: 1.6;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3{
+    color: aqua;
+    text-align: center;
+}
+
+p,a{
+    font-size: 1rem;
+    color: bisque;
+}
+
+#main-header{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgb(251, 255, 0);
+}
+
+#about{
+    text-align: center;
+}
+
+#main-footer{
+    background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+}
+
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 1rem 2rem;
+}
+
+.logo{
+    color: antiquewhite;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #ffffff;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+  .main-container {
+  max-width: 1000px;
+  }
+
+  .portfolio-section {
+  background-color: #ffffff;
+  
+
+
+  margin-bottom: 2.5rem;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.03);
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.hero-content > h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+
+.portfolio-section > h2 {
+  font-size: 1.8rem; 
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+
+  border-bottom: 3px solid #38bdf8;
+  display: inline-block;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  font-weight: 600;
+
+ 
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+/* Projects Layout using Flexbox */
+.projects-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  flex: 1 1 280px;
+  background-color: #f8fafc;
+
+  /* BOX MODEL */
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #38bdf8;
+}
+
+.project-card h3 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+

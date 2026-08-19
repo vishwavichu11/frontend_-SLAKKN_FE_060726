@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>aplication form</title>
+</head>
+<body>
+    <center>
+         <header>
+         <h1> Application form</h1>
+         </header>
+  
+    <main>
+         <main>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <section>
+                    <table cellpadding="10">
+                        <tbody>
+                    <tr>
+                
+                  <td> <label for="name">Full Name:</label> </td>
+                     <td><input type="text" name="name" id="name" placeholder="Enter your full name"></td>
+                     </tr><br><br>
+                     <tr>
+
+                   <td><label for="email">Email:</label></td>
+                  <td> <input type="email" name="email" id="email" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                   <td><label for="text">Password:</label></td>
+                   <td><input type="password" name="text" id="text" placeholder="Enter your password"></td>
+                </tr>
+                    <tr>
+                   <td><label for="mobile">Mobile Number:</label></td>
+                  <td> <input type="mobile" name="mobile" id="mobile" placeholder="Enter your mobile number"> </td
+                    </tr>
+                </section>
+                <tr>
+                   <td> <label>Gender</label></td>
+                   
+                    <td><input type="radio" id="male" name="gender" value="male" checked required>
+                    <label for="male">male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">female</label>
+
+                     <input type="radio" id="Other" name="gender" value="other">
+                    <label for="other">other</label>
+                    </tr>
+                     <tr>
+                        <td><label for="job_position">Job Position</label></td>
+                        <td><select name="position" id="job_position" required>
+                           <option value="" disabled selected>Select a role</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="designer">UI/UX Designer</option>
+                            </select >
+                            </td>
+
+
+                     </tr>
+                     <tr>
+                        <td><label for="job_resume">Upload Resume (pdf,doc)</label></td>
+                        <td><input type="file" id="job_resume" name="resume" accept="pdf,doc"></td>
+                     </tr>
+                     <tr><td><input type="submit" value="submit"></td></tr>
+                
+                  </tbody>
+                </table>
+
+
+
+            </form>
+              </center>
+             </body>
+         </main>
+    </main>
+   

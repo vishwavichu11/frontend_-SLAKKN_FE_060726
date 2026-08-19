@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLA Institute</title>
+</head>
+<center>
+<body>
+    <h1>SLA Institute</h1>
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <table cellpadding="4">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="studentName">Student Name:</label> </td>
+                        <td><input type="name" id="StudentName" name="studentName" placeholder="Enter your name" required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="studentEmail">Student Email:</label></td>
+                       <td> <input type="email" id="studentEmail" name="studentEmail" placeholder="Enter your email" required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="confirmPassword">Confirm Password:</label></td>
+                        <td><input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="mobileNumber">Mobile Number:</label></td>
+                        <td><input type="number" id="mobileNumber" name="mobileNumber" max="10" placeholder="Enter your mobile number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="studentAge">Student Age:</label></td>
+                        <td><input type="number" id="studentAge" name="studentAge" min="18" max="100" placeholder="your age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Skills">Skills:</label></td>
+                    <td>
+                        <input type="checkbox" id="html" name="skills" value="HTML">
+                        <label for="html">HTML</label>
+                        <input type="checkbox" id="css" name="skills" value="CSS">
+                        <label for="css">CSS</label>
+                        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <label for="address">Student Address:</label></td>
+                    <td><textarea id="address" name="address" rows="4" cols="50" placeholder="Enter your address" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="profilePicture">Profile Picture:</label></td>
+                    <td><input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+       
+    </form>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table border="1" cellpadding="4">
+        <thead>
+            <tr>
+               <th>SLA ID</th>
+        <th>Student Name</th>
+        <th>Course</th>
+        <th>Email</th>
+        <th>Mobile Number</th>
+        <th>Status</th>
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>Web Development</td>
+                <td>john.doe@example.com</td>
+                <td>9234567890</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>Data Science</td>
+                <td>jane.smith@example.com</td>
+                <td>9876543210</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Michael Johnson</td>
+                <td>Machine Learning</td>
+                <td>michael.johnson@example.com</td>
+                <td>9123456789</td>
+                <td>Active</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</center>
+</html>

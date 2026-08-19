@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(46, 22, 206);
+    color: antiquewhite;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.card-container{
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.vish{
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    width: 200px;
+    height: 320px;
+    padding: 16px;
+    margin: 0 10px;
+    border: 2px solid gold;
+    border-radius: 12px;
+    background-color: rgb(37, 79, 102);
+    box-shadow: 0 4px 6px red;
+    box-sizing:border-box
+    
+
+}
+
+.vish img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.vish h3{
+    font-size: 16px;
+    margin: 0 0 12px;
+    color: cornsilk;
+}
+.vish p {
+  font-size: 14px;
+  color: #87ff9f;
+  margin: 0 0 12px;
+}
+.vish .price {
+  font-weight: bold;
+  color: #d6ffd8;
+  font-size: 16px;
+}

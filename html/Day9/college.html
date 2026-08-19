@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Engineering College Admission Portal</title>
+</head>
+<body>
+
+  <h1>Engineering College Admission Portal</h1>
+  <h2>Student Admission Form</h2>
+
+  
+  <form action="#" method="POST" enctype="multipart/form-data">
+
+    <p>
+      <label for="studentName">Student Name:</label><br>
+      <input type="text" id="studentName" name="studentName" placeholder="Enter full name" required>
+    </p>
+
+
+    <p>
+      <label for="fatherName">Father's Name:</label><br>
+      <input type="text" id="fatherName" name="fatherName" placeholder="Enter father's name" required>
+    </p>
+
+   
+    <p>
+      <label for="motherName">Mother's Name:</label><br>
+      <input type="text" id="motherName" name="motherName" placeholder="Enter mother's name" required>
+    </p>
+
+  
+    <p>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+    </p>
+
+  
+    <p>
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number" required>
+    </p>
+
+    <p>
+      <label for="dob">Date of Birth (DOB):</label><br>
+      <input type="date" id="dob" name="dob" required>
+    </p>
+
+   
+    <p>
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="Other">
+      <label for="other">Other</label>
+    </p>
+
+   
+    <p>
+      <label for="department">Department Selection:</label><br>
+      <select id="department" name="department" required>
+        <option value="" disabled selected>-- Select Department --</option>
+        <option value="Computer Science & Engineering">Computer Science & Engineering</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Electronics & Communication Engineering">Electronics & Communication Engineering</option>
+        <option value="Electrical & Electronics Engineering">Electrical & Electronics Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+      </select>
+    </p>
+
+   
+    <p>
+      <label for="percentage">HSC / 12th Percentage (%):</label><br>
+      <input type="number" id="percentage" name="percentage" min="0" max="100" step="0.01" placeholder="e.g. 88.5" required>
+    </p>
+
+   
+    <p>
+      <label for="address">Address for Communication:</label><br>
+      <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter permanent address..." required></textarea>
+    </p>
+
+   
+    <p>
+      <label for="photo">Upload Passport Size Photo:</label><br>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+    </p>
+
+    
+    <p>
+      <button type="submit">Submit Application</button>
+      <button type="reset">Reset Form</button>
+    </p>
+
+  </form>
+
+  <hr>
+
+  <h2>Submitted Admission Applications</h2>
+
+ 
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Application ID</th>
+        <th>Student Name</th>
+        <th>Department</th>
+        <th>Percentage</th>
+        <th>Email</th>
+        <th>Admission Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ENG-2026-001</td>
+        <td>Karthik Raja</td>
+        <td>Computer Science & Engineering</td>
+        <td>92.4%</td>
+        <td>karthik.r@gmail.com</td>
+        <td>Approved</td>
+      </tr>
+      <tr>
+        <td>ENG-2026-002</td>
+        <td>Divya Bharathi</td>
+        <td>Information Technology</td>
+        <td>85.0%</td>
+        <td>divya.b@yahoo.com</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>ENG-2026-003</td>
+        <td>Santhosh Kumar</td>
+        <td>Mechanical Engineering</td>
+        <td>78.2%</td>
+        <td>santhosh.k@outlook.com</td>
+        <td>Under Review</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

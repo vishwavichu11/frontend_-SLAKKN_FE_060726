@@ -10,12 +10,12 @@
          <header>
          <h1> Application form</h1>
          </header>
-    </center>
+  
     <main>
          <main>
             <form action="#" method="post" enctype="multipart/form-data">
                 <section>
-                    <table cellpadding="4">
+                    <table cellpadding="10">
                         <tbody>
                     <tr>
                 
@@ -48,7 +48,23 @@
                      <input type="radio" id="Other" name="gender" value="other">
                     <label for="other">other</label>
                     </tr>
+                     <tr>
+                        <td><label for="job_position">Job Position</label></td>
+                        <td><select name="position" id="job_position" required>
+                           <option value="" disabled selected>Select a role</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="designer">UI/UX Designer</option>
+                            </select >
+                            </td>
+
+
                      </tr>
+                     <tr>
+                        <td><label for="job_resume">Upload Resume (pdf,doc)</label></td>
+                        <td><input type="file" id="job_resume" name="resume" accept="pdf,doc"></td>
+                     </tr>
+                     <tr><td><input type="submit" value="submit"></td></tr>
                 
                   </tbody>
                 </table>
@@ -56,6 +72,8 @@
 
 
             </form>
+              </center>
+             </body>
          </main>
     </main>
    

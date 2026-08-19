@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apollo Hospital - Patient Registration</title>
+</head>
+<body>
+
+  <h1>Apollo Hospital</h1>
+  <h2>Patient Registration Form</h2>
+
+ 
+  <form action="#" method="POST" enctype="multipart/form-data">
+    
+   
+    <p>
+      <label for="patientId">Patient ID:</label><br>
+      <input type="text" id="patientId" name="patientId" placeholder="e.g., APH-2026-001" required>
+    </p>
+
+   
+    <p>
+      <label for="patientName">Patient Name:</label><br>
+      <input type="text" id="patientName" name="patientName" placeholder="Enter patient full name" required>
+    </p>
+
+   
+    <p>
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age" min="0" max="120" required>
+    </p>
+
+    
+    <p>
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="Male" required>
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="Other">
+      <label for="other">Other</label>
+    </p>
+
+    
+    <p>
+      <label for="bloodGroup">Blood Group:</label><br>
+      <select id="bloodGroup" name="bloodGroup" required>
+        <option value="" disabled selected>-- Select Blood Group --</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+    </p>
+
+    
+    <p>
+      <label for="doctor">Doctor Selection:</label><br>
+      <select id="doctor" name="doctor" required>
+        <option value="" disabled selected>-- Select Doctor --</option>
+        <option value="Dr. Ramesh (Cardiology)">Dr. Ramesh (Cardiology)</option>
+        <option value="Dr. Priya (Neurology)">Dr. Priya (Neurology)</option>
+        <option value="Dr. Anitha (General Medicine)">Dr. Anitha (General Medicine)</option>
+        <option value="Dr. Karthik (Orthopedics)">Dr. Karthik (Orthopedics)</option>
+      </select>
+    </p>
+
+    
+    <p>
+      <label for="appointmentDate">Appointment Date:</label><br>
+      <input type="date" id="appointmentDate" name="appointmentDate" required>
+    </p>
+
+    
+    <p>
+      <label for="symptoms">Symptoms / Reason for Visit:</label><br>
+      <textarea id="symptoms" name="symptoms" rows="4" cols="40" placeholder="Describe symptoms..."></textarea>
+    </p>
+
+    
+    <p>
+      <label for="medicalReport">Upload Previous Medical Report:</label><br>
+      <input type="file" id="medicalReport" name="medicalReport" accept=".pdf,.png,.jpg,.jpeg">
+    </p>
+
+    
+    <p>
+      <button type="submit">Submit Registration</button>
+      <button type="reset">Reset</button>
+    </p>
+
+  </form>
+
+  <hr>
+
+  <h2>Registered Patient Appointments</h2>
+
+  
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Patient ID</th>
+        <th>Patient Name</th>
+        <th>Doctor</th>
+        <th>Blood Group</th>
+        <th>Appointment Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>APH-2026-001</td>
+        <td>Suresh K</td>
+        <td>Dr. Ramesh (Cardiology)</td>
+        <td>O+</td>
+        <td>2026-08-05</td>
+        <td>Confirmed</td>
+      </tr>
+      <tr>
+        <td>APH-2026-002</td>
+        <td>Meena R</td>
+        <td>Dr. Anitha (General Medicine)</td>
+        <td>B+</td>
+        <td>2026-08-06</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>APH-2026-003</td>
+        <td>Vijay Kumar</td>
+        <td>Dr. Karthik (Orthopedics)</td>
+        <td>A+</td>
+        <td>2026-08-07</td>
+        <td>Confirmed</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

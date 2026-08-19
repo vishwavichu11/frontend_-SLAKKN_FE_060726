@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Electronics Shop - Inventory System</title>
+</head>
+<body>
+
+  <h1>Electronics Shop Inventory System</h1>
+  <h2>Product Registration Form</h2>
+
+  
+  <form action="#" method="POST" enctype="multipart/form-data">
+    
+   
+    <p>
+      <label for="productId">Product ID:</label><br>
+      <input type="text" id="productId" name="productId" placeholder="e.g., ELEC-1001" required>
+    </p>
+
+   
+    <p>
+      <label for="productName">Product Name:</label><br>
+      <input type="text" id="productName" name="productName" placeholder="Enter product name" required>
+    </p>
+
+   
+    <p>
+      <label for="brand">Brand:</label><br>
+      <input type="text" id="brand" name="brand" placeholder="e.g., Samsung, Sony, Apple" required>
+    </p>
+
+   
+    <p>
+      <label for="category">Category:</label><br>
+      <select id="category" name="category" required>
+        <option value="" disabled selected>-- Select Category --</option>
+        <option value="Smartphones">Smartphones</option>
+        <option value="Laptops & Computers">Laptops & Computers</option>
+        <option value="Audio & Headphones">Audio & Headphones</option>
+        <option value="Televisions">Televisions</option>
+        <option value="Wearable Tech">Wearable Tech</option>
+        <option value="Home Appliances">Home Appliances</option>
+      </select>
+    </p>
+
+    
+    <p>
+      <label for="price">Price ($):</label><br>
+      <input type="number" id="price" name="price" min="0" step="0.01" placeholder="e.g., 499.99" required>
+    </p>
+
+   
+    <p>
+      <label for="quantity">Quantity in Stock:</label><br>
+      <input type="number" id="quantity" name="quantity" min="0" placeholder="e.g., 50" required>
+    </p>
+
+    <p>
+      <label for="supplier">Supplier Name:</label><br>
+      <input type="text" id="supplier" name="supplier" placeholder="Enter supplier name" required>
+    </p>
+
+   
+    <p>
+      <label for="productImage">Upload Product Image:</label><br>
+      <input type="file" id="productImage" name="productImage" accept="image/*" required>
+    </p>
+
+
+    <p>
+      <button type="submit">Add Product</button>
+      <button type="reset">Reset Form</button>
+    </p>
+
+  </form>
+
+  <hr>
+
+  <h2>Inventory Report</h2>
+
+ 
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Brand</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Stock Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ELEC-1001</td>
+        <td>Galaxy S24 Ultra</td>
+        <td>Samsung</td>
+        <td>$1,199.00</td>
+        <td>25</td>
+        <td>In Stock</td>
+      </tr>
+      <tr>
+        <td>ELEC-1002</td>
+        <td>WH-1000XM5 Headphones</td>
+        <td>Sony</td>
+        <td>$398.00</td>
+        <td>4</td>
+        <td>Low Stock</td>
+      </tr>
+      <tr>
+        <td>ELEC-1003</td>
+        <td>MacBook Pro 16"</td>
+        <td>Apple</td>
+        <td>$2,499.00</td>
+        <td>0</td>
+        <td>Out of Stock</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
