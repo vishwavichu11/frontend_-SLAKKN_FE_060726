@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 60px 40px;
+  border-radius: 12px;
+  border: 2px dashed #cbd5e1;
+}
+
+/* Base box styling */
+.box {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Box 1: Normal Static Position */
+.box-1 {
+  background-color: #3b82f6;
+}
+
+/* Box 2: Shifted relative to its normal position */
+.box-2 {
+  position: relative;
+  top: 40px;
+  left: 60px;
+  background-color: #ef4444;
+  z-index: 10;
+}
+
+/* Box 3: Normal Static Position (stoppers in place, leaving Box 2's slot intact) */
+.box-3 {
+  background-color: #10b981;
+}

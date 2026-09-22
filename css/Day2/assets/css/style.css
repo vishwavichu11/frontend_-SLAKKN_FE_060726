@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.student-card{
+    width: 320px;
+    height: 220px;
+    display: block;
+    background-color: aqua;
+    color: rgb(27, 28, 30);
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #e75313;
+}

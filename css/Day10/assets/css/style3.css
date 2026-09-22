@@ -1,0 +1,80 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1e293b;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Desktop: 3 Cards Per Row */
+.team-card {
+  flex: 0 0 calc((100% - 40px) / 3);
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.member-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.member-name {
+  font-size: 1.15rem;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.department {
+  font-size: 0.9rem;
+  color: #0284c7;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.email {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+/* Tablet: 2 Cards Per Row */
+@media (max-width: 768px) {
+  .team-card {
+    flex: 0 0 calc((100% - 20px) / 2);
+  }
+}
+
+/* Mobile: 1 Card Per Row */
+@media (max-width: 576px) {
+  .team-card {
+    flex: 0 0 100%;
+  }
+}

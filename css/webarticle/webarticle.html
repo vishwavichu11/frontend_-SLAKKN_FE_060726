@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Essentials Guide</title>
+
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- External Animated CSS Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar_header">
+        <nav class="navbar">
+            <div class="nav_left">
+                <a href="#" class="logo">
+                    <img src="assets/images/lockup.svg" alt="Logo" class="logo_img">
+                </a>
+                <ul class="nav_links">
+                    <li><a href="#" class="active">Articles</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Patterns</a></li>
+                </ul>
+            </div>
+            <div class="nav_right">
+                <div class="search_container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search articles..." class="search_input">
+                    <kbd class="search_shortcut">/</kbd>
+                </div>
+                <button class="icon_btn" aria-label="Toggle theme">
+                    <i class="fa-regular fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Left Navigation Sidebar -->
+        <aside class="sidebar_left">
+            <h3>Topics</h3>
+            <ul>
+                <li><a href="#intro" class="active">Introduction</a></li>
+                <li><a href="#frontend">Frontend Development</a></li>
+                <li><a href="#backend">Backend & Databases</a></li>
+                <li><a href="#vitals">Web Performance</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Article Content -->
+        <main class="article_content">
+            <span class="badge">WEB DEVELOPMENT GUIDE</span>
+            <h1>The Fundamentals of Modern Web Development</h1>
+            <p class="subtitle">A comprehensive breakdown of Frontend, Backend, and Web Performance optimization in 2026.</p>
+
+            <div class="article_meta">
+                <div class="meta_info">
+                    <span>Published on Aug 10, 2026 • 8 min read</span>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <!-- Section 1 -->
+            <section id="intro" class="article_section">
+                <h2>1. Introduction to Web Development</h2>
+                <p>
+                    Web development is the process of building and maintaining websites. It encompasses everything from plain text pages to complex web applications, electronic businesses, and social network services.
+                </p>
+                <div class="callout callout_info">
+                    <strong>Note:</strong> Building modern web applications requires a strong understanding of core web principles, visual hierarchy, and performant code.
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section id="frontend" class="article_section">
+                <h2>2. Frontend Development</h2>
+                <p>
+                    Frontend development handles the visual aspects of a website that users interact with directly. It relies on three core technologies:
+                </p>
+                <ul>
+                    <li><strong>HTML5:</strong> Provides the structure and semantics of the page.</li>
+                    <li><strong>CSS3:</strong> Manages layout, colors, typography, and responsive animations.</li>
+                    <li><strong>JavaScript:</strong> Adds interactivity, dynamic behavior, and logic.</li>
+                </ul>
+
+                <div class="code_block">
+                    <div class="code_header">HTML5 Semantic Example</div>
+                    <pre><code>&lt;article class="card"&gt;
+  &lt;h2&gt;Semantic Web Heading&lt;/h2&gt;
+  &lt;p&gt;Clean structural code improves SEO and accessibility.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section id="backend" class="article_section">
+                <h2>3. Backend & Database Systems</h2>
+                <p>
+                    The backend consists of a server, an application, and a database. It manages application logic, database operations, user authentication, and API endpoints.
+                </p>
+            </section>
+
+            <!-- Section 4 -->
+            <section id="vitals" class="article_section">
+                <h2>4. Web Performance & Optimization</h2>
+                <p>
+                    Speed and interactivity are crucial. Optimizing Core Web Vitals such as Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) ensures a smooth user experience across all devices.
+                </p>
+            </section>
+        </main>
+
+        <!-- Right Table of Contents Sidebar -->
+        <aside class="sidebar_right">
+            <h3>On This Page</h3>
+            <ul class="toc_links">
+                <li><a href="#intro">1. Introduction</a></li>
+                <li><a href="#frontend">2. Frontend</a></li>
+                <li><a href="#backend">3. Backend</a></li>
+                <li><a href="#vitals">4. Performance</a></li>
+            </ul>
+        </aside>
+
+    </div>
+
+</body>
+</html>

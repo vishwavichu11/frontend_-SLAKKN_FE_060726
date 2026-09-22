@@ -1,0 +1,29 @@
+body{
+    background-color:azure;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+#page-title{
+    color: burlywood;
+    margin-bottom: 20px;
+
+}
+.company-card{
+    width: 400px;
+    height: 120px;
+    background-color: cadetblue;
+    color: black;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(23, 44, 23);
+    text-align: center;
+}
+h2{
+    margin-top: 0;
+    color: blue;
+}

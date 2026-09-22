@@ -1,0 +1,70 @@
+/* Product Card Container using Box Model */
+.product-card {
+  width: 300px;
+  height: 470px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  border-radius: 14px;
+
+  /* Different border colors for each side */
+  border-top: 4px solid #ef4444;     /* Red */
+  border-right: 4px solid #3b82f6;   /* Blue */
+  border-bottom: 4px solid #10b981;  /* Green */
+  border-left: 4px solid #f59e0b;    /* Amber/Yellow */
+}
+
+/* Product Image */
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Product Name */
+.product-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 10px 0 6px 0;
+}
+
+/* Product Price */
+.product-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #16a34a;
+  margin: 0 0 10px 0;
+}
+
+/* Product Description */
+.product-desc {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+/* Buy Now Button */
+.buy-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0f172a;
+  color: #ffffff;
+  border: 1px solid #0f172a;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.buy-btn:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}

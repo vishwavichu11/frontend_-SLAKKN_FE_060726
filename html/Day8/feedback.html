@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Feedback From</h1>
+        </header>
+        <form action="#" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="fb_name">Name</label>  
+                    </td>
+                    <td>
+                         <input type="text" name="name" id="fb_name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fb_ratings">Rating</label>
+                    </td>
+                    <td>
+                        <select name="fb_ratings" id="rating" required>
+                        <option value="" disabled selected>select a rating</option>
+                        <option value="5">Excellent</option>
+                        <option value="4">Good</option>
+                        <option value="3">Aavarage</option>
+                        <option value="2">Poor</option>
+                        <option value="1">Very Poor</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fb_comments">Detailed Feedback</label>
+                    </td>
+                    <td>
+                    <textarea name="feedback" id="fb_comments" rows="4" cols="40"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit feedback">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </center>
+</body>
+</html>

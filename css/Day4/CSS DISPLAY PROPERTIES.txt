@@ -1,0 +1,35 @@
+CSS DISPLAY PROPERTIES
+----------------------
+- display: block: Starts on a new line and takes up the full available width.
+- display: inline: Stays on the same line, takes only necessary width, and ignores height and width.
+- display: inline-block: Stays on the same line, but respects width, height, and vertical margins.
+- display: flex: Generates a block-level flex container.
+- display: inline-flex: Generates an inline-level flex container.
+- display: grid: Generates a block-level grid container.
+- display: inline-grid: Generates an inline-level grid container.
+- display: none: Completely removes the element from the document layout.
+- display: contents: Hides the container itself and promotes children to direct children of the parent.
+- display: flow-root: Generates a new block formatting context, clearing internal floats.
+- display: list-item: Renders the element as a block with a bullet point marker.
+
+
+FLEX PROPERTIES - PARENT (CONTAINER)
+------------------------------------
+- display (flex, inline-flex): Initializes the flex container.
+- flex-direction (row, row-reverse, column, column-reverse): Sets the main axis direction.
+- flex-wrap (nowrap, wrap, wrap-reverse): Controls whether items wrap onto multiple lines.
+- flex-flow: Shorthand for flex-direction and flex-wrap (e.g., row wrap).
+- justify-content (flex-start, flex-end, center, space-between, space-around, space-evenly): Aligns items along the main axis.
+- align-items (stretch, flex-start, flex-end, center, baseline): Aligns items along the cross axis (single line).
+- align-content (stretch, flex-start, flex-end, center, space-between, space-around, space-evenly): Aligns wrapped flex lines along the cross axis.
+- gap (row-gap, column-gap): Sets the space directly between flex items.
+
+
+FLEX PROPERTIES - CHILD (ITEMS)
+-------------------------------
+- order: Changes visual placement order using numbers (0, 1, -1).
+- flex-grow: Dictates how much an item will grow relative to others (default: 0).
+- flex-shrink: Dictates how much an item will shrink when space is limited (default: 1).
+- flex-basis: Sets default size before remaining space is distributed (default: auto).
+- flex: Shorthand for flex-grow, flex-shrink, and flex-basis (e.g., 1 1 auto).
+- align-self (auto, flex-start, flex-end, center, baseline, stretch): Overrides align-items for a specific item.

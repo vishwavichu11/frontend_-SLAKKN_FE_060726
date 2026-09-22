@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+}
+h1{
+    color: blue;
+    margin-bottom: 25px;
+}
+.info-card{
+    background-color: bisque;
+    width: 420px;
+    color: rgb(15, 15, 49);
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #0a0a96;
+    box-shadow: 0 4px 6px rgb(63, 59, 59);
+}
+.info-card h2{
+    color: brown;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.info-card p{
+    font-size: 14px;
+    line-height: 1.6;
+
+}
+#Emergency-contact{
+    width: 420px;
+    background-color: rgb(177, 177, 232);
+    color: black;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+}
+#Emergency-contact h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+#Emergency-contact p{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+   
+}
+.btn-container{
+   background: rgb(79, 76, 76);
+   padding: 40px;
+   border-radius: 12px;
+   box-shadow: 0 4px 6px red;
+   text-align: center;
+}
+.btn-container h2{
+    margin-bottom: 24px;
+    color: rgb(210, 244, 17);
+    font-size: 1.5rem;
+}
+.btn-group{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+======================================= */
+.btn-save {
+  background-color: #e2e8f0;
+  color: #166534;
+  border: 2px solid #16a34a;
+}
+
+.btn-save:hover {
+  background-color: #16a34a; /* Background changes to green */
+  color: #ffffff;            /* Text changes to white */
+}
+
+/* =======================================
+   Button 2: Edit
+   ======================================= */
+.btn-edit {
+  background-color: #e2e8f0;
+  color: #1e40af;
+  border: 2px solid #2563eb;
+}
+
+.btn-edit:hover {
+  background-color: #2563eb; /* Background changes to blue */
+  color: #ffffff;            /* Text changes to white */
+}
+
+/* =======================================
+   Button 3: Delete
+   ======================================= */
+.btn-delete {
+  background-color: #e2e8f0;
+  color: #991b1b;
+  border: 2px solid #dc2626;
+}
+
+.btn-delete:hover {
+  background-color: #dc2626; /* Background changes to red */
+  color: #ffffff;            /* Text changes to white */
+}
+
+/* =======================================
+   Button 4: Login
+   ======================================= */
+.btn-login {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: 2px solid #0f172a;
+}
+
+.btn-login:hover {
+  background-color: #ffffff; /* Background changes to white */
+  color: #0f172a;            /* Text changes to dark slate */
+}
+
+/* =======================================
+   Button 5: Register
+   ======================================= */
+.btn-register {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+  border: 2px solid #9333ea;
+}
+
+.btn-register:hover {
+  background-color: #9333ea; /* Background changes to purple */
+  color: #ffffff;            /* Text changes to white */
+}

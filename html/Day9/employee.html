@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ABC Software Company - Employee Registration</title>
+</head>
+<body>
+
+  <h1>ABC Software Company</h1>
+  <h2>Employee Registration Form</h2>
+
+
+  <form action="#" method="POST" enctype="multipart/form-data">
+    
+    
+    <p>
+      <label for="empId">Employee ID:</label><br>
+      <input type="text" id="empId" name="empId" placeholder="e.g., ABC-101" required>
+    </p>
+
+  
+    <p>
+      <label for="empName">Employee Name:</label><br>
+      <input type="text" id="empName" name="empName" placeholder="Enter full name" required>
+    </p>
+
+    
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="example@abcsoftware.com" required>
+    </p>
+
+   
+    <p>
+      <label for="mobile">Mobile Number:</label><br>
+      <input type="tel" id="mobile" name="mobile" placeholder="10-digit mobile number" required>
+    </p>
+
+   
+    <p>
+      <label for="department">Department:</label><br>
+      <select id="department" name="department" required>
+        <option value="" disabled selected>-- Select Department --</option>
+        <option value="Software Engineering">Software Engineering</option>
+        <option value="Quality Assurance">Quality Assurance</option>
+        <option value="DevOps & Cloud">DevOps & Cloud</option>
+        <option value="Product Management">Product Management</option>
+        <option value="Human Resources">Human Resources</option>
+      </select>
+    </p>
+
+  
+    <p>
+      <label for="experience">Experience (in Years):</label><br>
+      <input type="number" id="experience" name="experience" min="0" max="40" required>
+    </p>
+
+  
+    <p>
+      <label for="salary">Expected / Offered Salary ($):</label><br>
+      <input type="number" id="salary" name="salary" min="0" required>
+    </p>
+
+
+    <p>
+      <label>Skills:</label><br>
+      <input type="checkbox" id="html" name="skills" value="HTML/CSS">
+      <label for="html">HTML/CSS</label>
+
+      <input type="checkbox" id="js" name="skills" value="JavaScript">
+      <label for="js">JavaScript</label>
+
+      <input type="checkbox" id="python" name="skills" value="Python">
+      <label for="python">Python</label>
+
+      <input type="checkbox" id="java" name="skills" value="Java">
+      <label for="java">Java</label>
+
+      <input type="checkbox" id="sql" name="skills" value="SQL">
+      <label for="sql">SQL</label>
+    </p>
+
+    
+    <p>
+      <label for="resume">Resume Upload:</label><br>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+    </p>
+
+  
+    <p>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </p>
+
+  </form>
+
+  <hr>
+
+  <h2>Registered Employee Details</h2>
+
+  
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Employee Name</th>
+        <th>Department</th>
+        <th>Experience</th>
+        <th>Salary</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ABC-101</td>
+        <td>John Doe</td>
+        <td>Software Engineering</td>
+        <td>4 Years</td>
+        <td>$85,000</td>
+        <td>Hired</td>
+      </tr>
+      <tr>
+        <td>ABC-102</td>
+        <td>Sarah Smith</td>
+        <td>DevOps & Cloud</td>
+        <td>2 Years</td>
+        <td>$70,000</td>
+        <td>Pending</td>
+      </tr>
+      <tr>
+        <td>ABC-103</td>
+        <td>Michael Brown</td>
+        <td>Quality Assurance</td>
+        <td>5 Years</td>
+        <td>$78,000</td>
+        <td>Hired</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

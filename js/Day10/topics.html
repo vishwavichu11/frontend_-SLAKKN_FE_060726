@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Hub - 10 Topics</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="nav-brand">
+      <div class="brand-badge">JS</div>
+      <span>Modern JS Hub</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="topics.html" class="nav-link active">10 Topics</a>
+      <a href="tasks.html" class="nav-link">10 Tasks</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 style="font-size: 2rem;">10 Core JavaScript Topics</h1>
+    <p style="color: #94a3b8; margin-bottom: 2rem;">Key theoretical principles and clean ES6+ syntax patterns.</p>
+
+    <div class="grid-cards">
+      <!-- 1 -->
+      <div class="card">
+        <span class="card-tag">Topic 01</span>
+        <h2 class="card-title">Scope & Hoisting</h2>
+        <p class="card-desc">`let` & `const` enforce block scope and prevent accidental variable re-declaration, unlike function-scoped `var`.</p>
+        <pre><code>const APP_ID = "JS_01";
+let count = 0;</code></pre>
+      </div>
+
+      <!-- 2 -->
+      <div class="card">
+        <span class="card-tag">Topic 02</span>
+        <h2 class="card-title">Arrow Functions</h2>
+        <p class="card-desc">Provides compact syntax and lexically retains the `this` value of its enclosing execution context.</p>
+        <pre><code>const add = (a, b) => a + b;</code></pre>
+      </div>
+
+      <!-- 3 -->
+      <div class="card">
+        <span class="card-tag">Topic 03</span>
+        <h2 class="card-title">Destructuring</h2>
+        <p class="card-desc">Directly extracts properties from objects or elements from arrays into discrete local bindings.</p>
+        <pre><code>const { name, age } = user;
+const [first, ...rest] = list;</code></pre>
+      </div>
+
+      <!-- 4 -->
+      <div class="card">
+        <span class="card-tag">Topic 04</span>
+        <h2 class="card-title">Rest & Spread (...)</h2>
+        <p class="card-desc">Spread expands arrays/objects into individual items; Rest collects variable arguments into an array.</p>
+        <pre><code>const merged = { ...obj1, ...obj2 };
+const sum = (...n) => n.reduce((a,b)=>a+b);</code></pre>
+      </div>
+
+      <!-- 5 -->
+      <div class="card">
+        <span class="card-tag">Topic 05</span>
+        <h2 class="card-title">Promises</h2>
+        <p class="card-desc">Handles asynchronous operations with clean `.then()` chaining, avoiding deeply nested callbacks.</p>
+        <pre><code>fetchData()
+  .then(res => render(res))
+  .catch(err => log(err));</code></pre>
+      </div>
+
+      <!-- 6 -->
+      <div class="card">
+        <span class="card-tag">Topic 06</span>
+        <h2 class="card-title">Async / Await</h2>
+        <p class="card-desc">Syntactic sugar built on top of Promises enabling asynchronous code to read like synchronous code.</p>
+        <pre><code>async function init() {
+  const res = await fetchData();
+}</code></pre>
+      </div>
+
+      <!-- 7 -->
+      <div class="card">
+        <span class="card-tag">Topic 07</span>
+        <h2 class="card-title">Optional Chaining & ??</h2>
+        <p class="card-desc">`?.` prevents null pointer errors during lookup; `??` supplies fallback defaults specifically for nullish values.</p>
+        <pre><code>const city = user?.address?.city ?? "N/A";</code></pre>
+      </div>
+
+      <!-- 8 -->
+      <div class="card">
+        <span class="card-tag">Topic 08</span>
+        <h2 class="card-title">Higher-Order Methods</h2>
+        <p class="card-desc">Functional array utilities like `map`, `filter`, and `reduce` returning transformations immutably.</p>
+        <pre><code>const evens = arr.filter(x => x % 2 === 0);</code></pre>
+      </div>
+
+      <!-- 9 -->
+      <div class="card">
+        <span class="card-tag">Topic 09</span>
+        <h2 class="card-title">Closures</h2>
+        <p class="card-desc">A function that retains access to variables from its outer enclosing scope even after termination.</p>
+        <pre><code>function counter() {
+  let c = 0;
+  return () => ++c;
+}</code></pre>
+      </div>
+
+      <!-- 10 -->
+      <div class="card">
+        <span class="card-tag">Topic 10</span>
+        <h2 class="card-title">ES6 Map & Set</h2>
+        <p class="card-desc">`Set` automatically eliminates duplicates; `Map` allows any object or primitive as dictionary keys.</p>
+        <pre><code>const unique = [...new Set(arr)];</code></pre>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Topic Reference &bull; Fully Separated Architecture
+  </footer>
+
+</body>
+</html>

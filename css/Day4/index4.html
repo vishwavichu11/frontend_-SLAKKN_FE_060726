@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Hide Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      gap: 20px;
+      padding: 40px;
+      background-color: #f4f4f9;
+    }
+
+    /* Card Design */
+    .card {
+      width: 200px;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    /* Method 1: Completely removed (Takes NO space) */
+    .hide-display {
+      display: none;
+    }
+
+    /* Method 2: Invisible (KEEPS empty space) */
+    .hide-visibility {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Visible Card -->
+  <div class="card">
+    <h3>Card 1</h3>
+    <p>Visible Card</p>
+  </div>
+
+  <!-- Hidden Card using display: none -->
+  <div class="card hide-display">
+    <h3>Card 2</h3>
+    <p>Hidden with display: none</p>
+  </div>
+
+  <!-- Hidden Card using visibility: hidden -->
+  <div class="card hide-visibility">
+    <h3>Card 3</h3>
+    <p>Hidden with visibility: hidden</p>
+  </div>
+
+  <!-- Visible Card -->
+  <div class="card">
+    <h3>Card 4</h3>
+    <p>Visible Card</p>
+  </div>
+
+</body>
+</html>

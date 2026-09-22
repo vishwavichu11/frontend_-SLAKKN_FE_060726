@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Hub - 10 Tasks</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- External JS Script Attached -->
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="nav-brand">
+      <div class="brand-badge">JS</div>
+      <span>Modern JS Hub</span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="topics.html" class="nav-link">10 Topics</a>
+      <a href="tasks.html" class="nav-link active">10 Tasks</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 style="font-size: 2rem;">10 Interactive Logical Tasks</h1>
+    <p style="color: #94a3b8; margin-bottom: 2rem;">Click "Run" buttons to execute functions defined in external `script.js`.</p>
+
+    <div class="grid-cards">
+      <!-- Task 1 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 01</span>
+          <h2 class="card-title">Reverse a String</h2>
+          <p class="card-desc">Reverses input string using loop logic.</p>
+          <div class="input-group">
+            <input type="text" id="t1-input" class="app-input" value="JavaScript">
+            <button onclick="runTask1()" class="app-btn">Run</button>
+          </div>
+        </div>
+        <div class="console-box" id="t1-out">Output will appear here</div>
+      </div>
+
+      <!-- Task 2 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 02</span>
+          <h2 class="card-title">Palindrome Checker</h2>
+          <p class="card-desc">Validates if string reads identical backward.</p>
+          <div class="input-group">
+            <input type="text" id="t2-input" class="app-input" value="racecar">
+            <button onclick="runTask2()" class="app-btn">Run</button>
+          </div>
+        </div>
+        <div class="console-box" id="t2-out">Output will appear here</div>
+      </div>
+
+      <!-- Task 3 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 03</span>
+          <h2 class="card-title">Find Min & Max</h2>
+          <p class="card-desc">Finds highest and lowest values from numbers.</p>
+          <div class="input-group">
+            <input type="text" id="t3-input" class="app-input" value="12, 45, 2, 89, -3">
+            <button onclick="runTask3()" class="app-btn">Run</button>
+          </div>
+        </div>
+        <div class="console-box" id="t3-out">Output will appear here</div>
+      </div>
+
+      <!-- Task 4 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 04</span>
+          <h2 class="card-title">Remove Duplicates</h2>
+          <p class="card-desc">Uses modern `Set` data structure.</p>
+          <div class="input-group">
+            <input type="text" id="t4-input" class="app-input" value="apple, banana, apple, orange">
+            <button onclick="runTask4()" class="app-btn">Run</button>
+          </div>
+        </div>
+        <div class="console-box" id="t4-out">Output will appear here</div>
+      </div>
+
+      <!-- Task 5 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 05</span>
+          <h2 class="card-title">Character Frequency</h2>
+          <p class="card-desc">Counts occurrence of each character.</p>
+          <div class="input-group">
+            <input type="text" id="t5-input" class="app-input" value="engineering">
+            <button onclick="runTask5()" class="app-btn">Run</button>
+          </div>
+        </div>
+        <div class="console-box" id="t5-out">Output will appear here</div>
+      </div>
+
+      <!-- Task 6 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 06</span>
+          <h2 class="card-title">Recursive Factorial</h2>
+          <p class="card-desc">Calculates n! recursively.</p>
+          <div class="input-group">
+            <input type="number" id="t6-input" class="app-input" value="5">
+            <button onclick="runTask6()" class="app-btn">Run</button>
+          </div>
+        </div>
+        <div class="console-box" id="t6-out">Output will appear here</div>
+      </div>
+
+      <!-- Task 7 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 07</span>
+          <h2 class="card-title">Promise Delay</h2>
+          <p class="card-desc">Resolves "Data Loaded" after 1.5s delay.</p>
+          <button onclick="runTask7()" class="app-btn full" style="margin-bottom: 0.75rem;">Trigger Promise</button>
+        </div>
+        <div class="console-box" id="t7-out">Click above to start timer</div>
+      </div>
+
+      <!-- Task 8 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 08</span>
+          <h2 class="card-title">Optional Chaining (?.) & (??)</h2>
+          <p class="card-desc">Safe access fallback check.</p>
+          <div class="input-group">
+            <button onclick="runTask8(false)" class="app-btn secondary" style="flex:1;">Missing City</button>
+            <button onclick="runTask8(true)" class="app-btn" style="flex:1;">With City</button>
+          </div>
+        </div>
+        <div class="console-box" id="t8-out">Select an option</div>
+      </div>
+
+      <!-- Task 9 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 09</span>
+          <h2 class="card-title">Array Methods</h2>
+          <p class="card-desc">Executes filter, find, includes, map on `[10, 25, 30, 45, 50, 65]`.</p>
+          <button onclick="runTask9()" class="app-btn full" style="margin-bottom: 0.75rem;">Execute Array Methods</button>
+        </div>
+        <div class="console-box" id="t9-out">Awaiting execution</div>
+      </div>
+
+      <!-- Task 10 -->
+      <div class="card">
+        <div>
+          <span class="card-tag task">Task 10</span>
+          <h2 class="card-title">ES6 Modern Syntax</h2>
+          <p class="card-desc">Runs template literals, arrows, and shorthand.</p>
+          <button onclick="runTask10()" class="app-btn full" style="margin-bottom: 0.75rem;">Run Modern ES6+</button>
+        </div>
+        <div class="console-box" id="t10-out">Awaiting execution</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Interactive Logical Suite &bull; External script.js Connected
+  </footer>
+
+</body>
+</html>

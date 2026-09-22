@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 36px 48px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Base heading style */
+.tech-title {
+  font-size: 1.5rem;
+  color: #1e293b;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* =======================================
+   1. ::before Pseudo-element
+   Adds a star symbol before the heading
+   ======================================= */
+.tech-title::before {
+  content: "★ ";
+  color: #f59e0b; /* Amber / Gold star */
+  margin-right: 8px;
+}
+
+/* =======================================
+   2. ::after Pseudo-element
+   Adds a checkmark symbol after the heading
+   ======================================= */
+.tech-title::after {
+  content: " ✔";
+  color: #10b981; /* Emerald green checkmark */
+  margin-left: 8px;
+}

@@ -1,0 +1,16 @@
+1. What is React?**
+An open-source JavaScript library developed by Meta for building user interfaces, especially single-page applications.
+2. Is React a library or framework?**
+A library. It handles only the UI (View layer), giving developers full freedom to choose their own routing, state management, and build tools.
+3. What is a component?**
+A self-contained, reusable building block of a UI—typically a JavaScript function that returns markup to display on the screen.
+4. Why are components important?**
+They allow code reusability, make complex UIs easier to maintain and test, and enable building modular applications piece by piece.
+5. What is JSX?**
+JavaScript XML—a syntax extension that allows you to write HTML-like elements directly inside JavaScript code.
+6. What is the Real DOM?**
+The browser's tree-like representation of an HTML document (Document Object Model) that directly reflects the rendered webpage.
+7. What is the Virtual DOM?**
+A lightweight, in-memory JavaScript representation of the Real DOM used to calculate UI updates quickly without touching the browser directly.
+8. What is reconciliation?**
+React's process of comparing the new Virtual DOM with the previous one (diffing) and applying only the minimal necessary changes to the Real DOM.

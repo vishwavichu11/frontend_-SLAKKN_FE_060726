@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Task Journey — Daily Frontend Tasks & Projects</title>
+  <meta name="description" content="A modern, responsive showcase of daily frontend tasks covering HTML, CSS, Tailwind CSS, Bootstrap, and JavaScript.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================================================
+       TOP NAVIGATION BAR
+       ============================================================================== -->
+  <header class="navbar" id="top-navbar">
+    <div class="container navbar-container">
+      <a href="#hero" class="navbar-brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="brand-title">
+          <span class="logo-main">TaskJourney</span>
+          <span class="logo-badge">Daily Showcase</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="navbar-links" aria-label="Main Navigation">
+        <a href="#hero" class="nav-item active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#cat-html" class="nav-item" data-category="html"><i class="fa-brands fa-html5" style="color: var(--cat-html)"></i> HTML</a>
+        <a href="#cat-css" class="nav-item" data-category="css"><i class="fa-brands fa-css3-alt" style="color: var(--cat-css)"></i> CSS</a>
+        <a href="#cat-tailwind" class="nav-item" data-category="tailwind"><i class="fa-solid fa-wind" style="color: var(--cat-tailwind)"></i> Tailwind</a>
+        <a href="#cat-bootstrap" class="nav-item" data-category="bootstrap"><i class="fa-brands fa-bootstrap" style="color: var(--cat-bootstrap)"></i> Bootstrap</a>
+        <a href="#cat-js" class="nav-item" data-category="js"><i class="fa-brands fa-js" style="color: var(--cat-js)"></i> JavaScript</a>
+        <a href="#cat-react" class="nav-item" data-category="react"><i class="fa-brands fa-react" style="color: var(--cat-react)"></i> React</a>
+      </nav>
+
+      <!-- Actions & Theme Toggle -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Light / Dark Mode" aria-label="Toggle Light / Dark Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" title="Open Mobile Navigation" aria-label="Open Mobile Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+      <a href="#hero" class="mobile-nav-item active"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="#cat-html" class="mobile-nav-item" data-category="html"><i class="fa-brands fa-html5" style="color: var(--cat-html)"></i> HTML Tasks</a>
+      <a href="#cat-css" class="mobile-nav-item" data-category="css"><i class="fa-brands fa-css3-alt" style="color: var(--cat-css)"></i> CSS Tasks</a>
+      <a href="#cat-tailwind" class="mobile-nav-item" data-category="tailwind"><i class="fa-solid fa-wind" style="color: var(--cat-tailwind)"></i> Tailwind Tasks</a>
+      <a href="#cat-bootstrap" class="mobile-nav-item" data-category="bootstrap"><i class="fa-brands fa-bootstrap" style="color: var(--cat-bootstrap)"></i> Bootstrap Tasks</a>
+      <a href="#cat-js" class="mobile-nav-item" data-category="js"><i class="fa-brands fa-js" style="color: var(--cat-js)"></i> JavaScript Tasks</a>
+      <a href="#cat-react" class="mobile-nav-item" data-category="react"><i class="fa-brands fa-react" style="color: var(--cat-react)"></i> React Tasks</a>
+    </div>
+  </header>
+
+  <!-- ==============================================================================
+       HERO SECTION WITH STATS DASHBOARD
+       ============================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-glow-blob"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>STUDENT LEARNING PROGRESS & LAB DASHBOARD</span>
+      </div>
+
+      <h1 class="hero-title">
+        MY TASK <span class="highlight-text">JOURNEY</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        <span>Daily Tasks & Projects</span>
+        <span class="dot">•</span>
+        <span>HTML</span>
+        <span class="dot">•</span>
+        <span>CSS</span>
+        <span class="dot">•</span>
+        <span>Tailwind</span>
+        <span class="dot">•</span>
+        <span>Bootstrap</span>
+        <span class="dot">•</span>
+        <span>JavaScript</span>
+        <span class="dot">•</span>
+        <span>React</span>
+      </p>
+
+      <!-- Dynamic Statistics Cards Grid -->
+      <div class="hero-stats-grid" id="hero-stats-grid">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================================================
+       SEARCH, FILTER & CONTROLS TOOLBAR
+       ============================================================================== -->
+  <section class="controls-toolbar" id="controls-toolbar">
+    <div class="container">
+      <div class="toolbar-grid">
+        <!-- Search Input -->
+        <div class="search-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="task-search-input" class="search-input" placeholder="Search tasks by title, description, or tags..." autocomplete="off">
+          <button id="search-clear-btn" class="search-clear-btn" title="Clear Search">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Category Filter Pills -->
+        <div class="filter-pills" id="filter-pills">
+          <button class="filter-pill active" data-filter="all">
+            <i class="fa-solid fa-layer-group"></i> All
+            <span class="pill-count" id="pill-count-all">0</span>
+          </button>
+          <button class="filter-pill" data-filter="html">
+            <i class="fa-brands fa-html5" style="color: var(--cat-html)"></i> HTML
+            <span class="pill-count" id="pill-count-html">0</span>
+          </button>
+          <button class="filter-pill" data-filter="css">
+            <i class="fa-brands fa-css3-alt" style="color: var(--cat-css)"></i> CSS
+            <span class="pill-count" id="pill-count-css">0</span>
+          </button>
+          <button class="filter-pill" data-filter="tailwind">
+            <i class="fa-solid fa-wind" style="color: var(--cat-tailwind)"></i> Tailwind
+            <span class="pill-count" id="pill-count-tailwind">0</span>
+          </button>
+          <button class="filter-pill" data-filter="bootstrap">
+            <i class="fa-brands fa-bootstrap" style="color: var(--cat-bootstrap)"></i> Bootstrap
+            <span class="pill-count" id="pill-count-bootstrap">0</span>
+          </button>
+          <button class="filter-pill" data-filter="js">
+            <i class="fa-brands fa-js" style="color: var(--cat-js)"></i> JavaScript
+            <span class="pill-count" id="pill-count-js">0</span>
+          </button>
+          <button class="filter-pill" data-filter="react">
+            <i class="fa-brands fa-react" style="color: var(--cat-react)"></i> React
+            <span class="pill-count" id="pill-count-react">0</span>
+          </button>
+        </div>
+
+        <!-- Global Accordion Expand/Collapse Actions -->
+        <div class="toolbar-actions">
+          <button id="btn-expand-all" class="toggle-accordions-btn" title="Expand all categories and days">
+            <i class="fa-solid fa-angles-down"></i> Expand All
+          </button>
+          <button id="btn-collapse-all" class="toggle-accordions-btn" title="Collapse all days">
+            <i class="fa-solid fa-angles-up"></i> Collapse All
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================================================================
+       MAIN TASK CONTENT CONTAINER
+       ============================================================================== -->
+  <main class="container">
+    <!-- Live Results Summary -->
+    <div class="results-status-bar" id="results-status-bar">
+      <span>Showing <span class="match-count" id="visible-tasks-count">0</span> tasks across <span class="match-count" id="visible-days-count">0</span> days</span>
+      <span id="active-filter-indicator" class="active-filter-badge">Filter: All</span>
+    </div>
+
+    <!-- Empty State Container (Hidden by default) -->
+    <div class="empty-state" id="empty-state">
+      <div class="empty-state-icon">
+        <i class="fa-solid fa-folder-open"></i>
+      </div>
+      <h3 class="empty-state-title">No Matching Tasks Found</h3>
+      <p class="empty-state-desc">We couldn't find any tasks matching your search query or selected filter. Try searching for another topic or resetting filters.</p>
+      <button class="btn-reset-filters" id="btn-reset-filters">
+        <i class="fa-solid fa-rotate-left"></i> Reset Search & Filters
+      </button>
+    </div>
+
+    <!-- Categories & Day Accordions Container -->
+    <div class="categories-container" id="categories-container">
+      <!-- Injected dynamically via script.js -->
+    </div>
+  </main>
+
+  <!-- ==============================================================================
+       LIVE PREVIEW & DEVICE SIMULATOR MODAL
+       ============================================================================== -->
+  <div class="preview-modal-overlay" id="preview-modal" role="dialog" aria-modal="true" aria-labelledby="modal-task-title">
+    <div class="preview-modal-container">
+      <!-- Header -->
+      <div class="preview-modal-header">
+        <div class="modal-title-wrap">
+          <span class="task-number-pill" id="modal-task-badge">Task</span>
+          <h3 class="modal-task-title" id="modal-task-title">Task Preview</h3>
+        </div>
+
+        <!-- Responsive Device Viewport Switcher -->
+        <div class="modal-device-controls" title="Viewport Simulator">
+          <button class="device-btn active" data-device="desktop" title="Desktop View (100%)">
+            <i class="fa-solid fa-desktop"></i> Desktop
+          </button>
+          <button class="device-btn" data-device="tablet" title="Tablet View (768px)">
+            <i class="fa-solid fa-tablet-screen-button"></i> Tablet
+          </button>
+          <button class="device-btn" data-device="mobile" title="Mobile View (390px)">
+            <i class="fa-solid fa-mobile-screen-button"></i> Mobile
+          </button>
+        </div>
+
+        <!-- Actions -->
+        <div class="modal-action-btns">
+          <a href="#" id="modal-external-link" target="_blank" class="modal-icon-btn" title="Open In New Browser Tab" aria-label="Open In New Browser Tab">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          <button id="modal-fullscreen-btn" class="modal-icon-btn" title="Toggle Fullscreen" aria-label="Toggle Fullscreen">
+            <i class="fa-solid fa-expand"></i>
+          </button>
+          <button id="modal-close-btn" class="modal-icon-btn close-btn" title="Close Preview (Esc)" aria-label="Close Preview">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Iframe Body -->
+      <div class="preview-modal-body">
+        <div class="iframe-wrapper" id="iframe-wrapper">
+          <iframe id="preview-iframe" class="preview-iframe" title="Live Task Preview" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="preview-modal-footer">
+        <div>
+          <span>Source: </span>
+          <span class="modal-footer-url" id="modal-footer-url">Loading...</span>
+        </div>
+        <div>
+          <span>Press <strong>Esc</strong> to close</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==============================================================================
+       SCROLL TO TOP BUTTON
+       ============================================================================== -->
+  <button id="scroll-top-btn" class="scroll-top-btn" title="Scroll back to top" aria-label="Scroll back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ==============================================================================
+       FOOTER
+       ============================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand-col">
+          <div class="navbar-brand">
+            <div class="brand-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="brand-title">
+              <span class="logo-main">TaskJourney</span>
+              <span class="logo-badge">Daily Showcase</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            A comprehensive, day-by-day frontend learning portfolio documenting coding exercises, laboratory assignments, and practical web applications.
+          </p>
+          <div class="footer-tech-stack">
+            <span class="tech-tag"><i class="fa-brands fa-html5" style="color: var(--cat-html)"></i> HTML5</span>
+            <span class="tech-tag"><i class="fa-brands fa-css3-alt" style="color: var(--cat-css)"></i> CSS3</span>
+            <span class="tech-tag"><i class="fa-solid fa-wind" style="color: var(--cat-tailwind)"></i> Tailwind</span>
+            <span class="tech-tag"><i class="fa-brands fa-bootstrap" style="color: var(--cat-bootstrap)"></i> Bootstrap</span>
+            <span class="tech-tag"><i class="fa-brands fa-js" style="color: var(--cat-js)"></i> JavaScript</span>
+            <span class="tech-tag"><i class="fa-brands fa-react" style="color: var(--cat-react)"></i> React</span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-col-title">Categories</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#cat-html" class="footer-nav-link" data-category="html"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem"></i> HTML Tasks</a></li>
+            <li><a href="#cat-css" class="footer-nav-link" data-category="css"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem"></i> CSS Tasks</a></li>
+            <li><a href="#cat-tailwind" class="footer-nav-link" data-category="tailwind"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem"></i> Tailwind Tasks</a></li>
+            <li><a href="#cat-bootstrap" class="footer-nav-link" data-category="bootstrap"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem"></i> Bootstrap Tasks</a></li>
+            <li><a href="#cat-js" class="footer-nav-link" data-category="js"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem"></i> JavaScript Tasks</a></li>
+            <li><a href="#cat-react" class="footer-nav-link" data-category="react"><i class="fa-solid fa-chevron-right" style="font-size: 0.7rem"></i> React Tasks</a></li>
+          </ul>
+        </div>
+
+        <!-- Maintenance Instructions for User -->
+        <div>
+          <h4 class="footer-col-title">Easy Maintenance</h4>
+          <div class="footer-maintenance-box">
+            <p><strong>To add new tasks:</strong></p>
+            <p style="margin-top: 0.35rem;">Open <code>tasks-data.js</code> and add your new day or task to the data array. The website, counters, and accordions will update automatically!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <span>&copy; 2026 TaskJourney Showcase • Crafted for Frontend Excellence</span>
+        <span>Built with HTML, CSS & JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="tasks-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

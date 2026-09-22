@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 440px;
+  padding: 36px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #0f172a;
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.form-subtitle {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+/* Base input styles */
+input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  color: #1e293b;
+  background-color: #f8fafc;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+/* =======================================
+   Required :focus Pseudo-class Styling
+   ======================================= */
+input:focus {
+  border-color: #2563eb;          /* Changes border to blue */
+  background-color: #eff6ff;       /* Changes background to light blue tint */
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15); /* Soft outer glow */
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 13px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}

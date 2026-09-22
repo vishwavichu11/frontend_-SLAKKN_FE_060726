@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Position Comparison</title>
+  <link rel="stylesheet" href="assets/css/style4.css">
+</head>
+<body>
+
+  <!-- Box 4: Fixed Position (Stays pinned to viewport) -->
+  <div class="box box-fixed">
+    Fixed Position
+  </div>
+
+  <main class="page-container">
+    <header class="header">
+      <h1>CSS Position Property Comparison</h1>
+      <p>Scroll down to compare how all 5 positioning types interact with the page flow.</p>
+    </header>
+
+    <!-- Box 1: Static Position -->
+    <section class="demo-section">
+      <div class="box box-static">
+        Static Position
+      </div>
+      <p class="description">Default flow. Ignores <code>top</code>, <code>left</code>, and stays in document order.</p>
+    </section>
+
+    <!-- Box 2: Relative Position -->
+    <section class="demo-section">
+      <div class="box box-relative">
+        Relative Position
+      </div>
+      <p class="description">Shifted by <code>top: 20px; left: 30px;</code> from its normal spot; its original layout space remains reserved.</p>
+    </section>
+
+    <!-- Relative parent context for Box 3 -->
+    <section class="demo-section parent-context">
+      <p class="context-label">Parent Container (<code>position: relative</code>)</p>
+      <!-- Box 3: Absolute Position -->
+      <div class="box box-absolute">
+        Absolute Position
+      </div>
+      <p class="description">Removed from normal flow. Pinned to the top-right corner of this dashed parent container.</p>
+    </section>
+
+    <!-- Scroll track with Sticky element -->
+    <section class="sticky-track">
+      <!-- Box 5: Sticky Position -->
+      <div class="box box-sticky">
+        Sticky Position
+      </div>
+      <div class="track-content">
+        <p>Scroll through this card to see <strong>Box 5</strong> stick to <code>top: 10px</code> while inside this container, then release when scrolling past it.</p>
+      </div>
+    </section>
+
+    <!-- Extra space to allow full scroll test -->
+    <div class="spacer"></div>
+  </main>
+
+</body>
+</html>

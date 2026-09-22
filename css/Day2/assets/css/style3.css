@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: black;
+    color: rgb(1, 2, 15);
+    padding: 40px 20px;
+    text-align: center;
+}
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.movie-card{
+    width: 220px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(7, 245, 7);
+}
+
+h1,h2,p,span{
+    letter-spacing: 0.5px;
+
+}
+h2,p{
+    margin-bottom: 8px;
+}
+h2{
+    color: blueviolet;
+
+}
+p{
+    color: black;
+    font-size: 15px;
+}
+span{
+    color: black;
+    font-size: 15px;
+}

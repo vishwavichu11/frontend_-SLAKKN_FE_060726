@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline to Block Example</title>
+  <style>
+ 
+    .normal-inline {
+      display: inline; 
+      width: 200px;    
+      height: 100px;   
+      background-color: lightcoral;
+    }
+
+    
+    .as-block {
+      display: block;
+      width: 200px;
+      height: 100px;
+      background-color: lightgreen;
+      margin-bottom: 10px;
+    }
+
+    .as-inline-block {
+      display: inline-block;
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <p><strong>1. Normal Inline:</strong></p>
+  <span class="normal-inline">Normal Inline (No size)</span>
+
+  <hr>
+
+
+  <p><strong>2. Display Block:</strong></p>
+  <span class="as-block">Block Element 1</span>
+  <span class="as-block">Block Element 2</span>
+
+  <hr>
+
+
+  <p><strong>3. Display Inline-Block:</strong></p>
+  <span class="as-inline-block">Inline-Block 1</span>
+  <span class="as-inline-block">Inline-Block 2</span>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>display: none vs visibility: hidden</title>
+  <style>
+    .row {
+      display: flex;
+      margin-bottom: 25px;
+      gap: 10px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    .box-1 { background-color: #3498db; }
+    .box-3 { background-color: #9b59b6; }
+
+  
+    .hidden-display {
+      display: none;
+    }
+
+   
+    .hidden-visibility {
+      visibility: hidden;
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>1. Using display: none (Middle box is removed, space collapses)</h3>
+  <div class="row">
+    <div class="box box-1">Box 1</div>
+    <div class="box hidden-display">Box 2</div>
+    <div class="box box-3">Box 3</div>
+  </div>
+
+  <h3>2. Using visibility: hidden (Middle box is invisible, space remains)</h3>
+  <div class="row">
+    <div class="box box-1">Box 1</div>
+    <div class="box hidden-visibility">Box 2</div>
+    <div class="box box-3">Box 3</div>
+  </div>
+
+</body>
+</html>

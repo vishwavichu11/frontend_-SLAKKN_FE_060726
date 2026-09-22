@@ -1,0 +1,80 @@
+/* Centers the ID card on the entire webpage */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* ID Card Container */
+.id-card {
+  width: 300px;
+  height: 440px;
+  padding: 24px;
+  margin: 20px;
+  border: 2px solid #cbd5e1;
+  border-radius: 16px;
+  background-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Company Logo */
+.company-logo {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 12px auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.company-name {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #475569;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Employee Name */
+.emp-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 12px 0 6px 0;
+}
+
+/* Employee ID Badge */
+.emp-id {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2563eb;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+
+/* Department */
+.emp-dept {
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  margin: 8px 0;
+}
+
+/* Email */
+.emp-email {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed #cbd5e1;
+  word-break: break-all;
+}

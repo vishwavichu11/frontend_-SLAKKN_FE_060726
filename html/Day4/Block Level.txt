@@ -1,0 +1,11 @@
+Block Level
+Block-level elements (like <div>, <p>, or headings) always start on a new line and stretch to occupy the full width of their parent container, building the structural grid of the page from top to bottom.
+
+Inline
+Inline elements (like <span>, <a>, or <strong>) flow seamlessly within the surrounding text. They do not disrupt the layout's flow and only occupy the exact width of the content inside them.
+
+Formatting
+Formatting dictates the visual presentation and design system. Through typography, colors, margins, padding, and alignment, it gives these structural elements a clear hierarchy and an aesthetic look.
+
+Interactive
+Interactive elements bring functional behavior to the interface. By using clickable buttons, input fields, forms, and sliders, they transform a static layout into a responsive, engaging, and dynamic user experience.

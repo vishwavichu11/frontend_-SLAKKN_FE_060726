@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* 1. Desktop Background Color */
+body {
+  background-color: #ffffff;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* Header & Navigation (Desktop: Row) */
+header {
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #e2e8f0;
+  padding: 16px 30px;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+}
+
+/* Sections Common Layout */
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+}
+
+/* Hero Section (Desktop: Image + Text Side by Side) */
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-img-box {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero-content {
+  flex: 1.2;
+}
+
+.greeting {
+  font-size: 1.1rem;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.hero-content h1 {
+  font-size: 2.6rem;
+  margin: 6px 0;
+}
+
+.hero-content h2 {
+  text-align: left;
+  font-size: 1.3rem;
+  color: #64748b;
+  margin-bottom: 14px;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skill-badge {
+  background-color: #e0e7ff;
+  color: #3730a3;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Projects Section */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  flex: 1 1 calc(33.333% - 20px);
+  min-width: 250px;
+  background-color: #ffffff;
+  padding: 22px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+/* Contact & Footer */
+.contact-section {
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* 2. Tablet Media Query: Background = Light Blue */
+@media (max-width: 900px) {
+  body {
+    background-color: #e0f2fe; /* Tablet Background */
+  }
+
+  header {
+    background: rgba(224, 242, 254, 0.9);
+  }
+
+  .project-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+/* 3. Mobile Media Query: Background = Light Green + Vertical Layouts */
+@media (max-width: 600px) {
+  body {
+    background-color: #dcfce7; /* Mobile Background */
+  }
+
+  header {
+    background: rgba(220, 252, 231, 0.9);
+    padding: 16px 20px;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Navigation becomes column */
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Hero Section: Image on top, Text below */
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content h2 {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .project-card {
+    flex: 1 1 100%;
+  }
+}

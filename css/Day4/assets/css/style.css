@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    background-color: black;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 3%;
+    border: 3px solid;
+   
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.vish{
+        background-color: rgb(72, 17, 199);
+    color: rgb(185, 97, 14);
+    font-size: x-large;
+    padding: 3%;
+    border: 3px solid;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+    justify-content: space-evenly;
+    gap: 20px;
+  
+    
+
+}
