@@ -636,8 +636,8 @@ const TASKS_DATA = [
             description: "Demonstration of content box, padding, borders, and margins with border-box behaviors.",
             technologies: ["CSS3", "Box Model", "Borders & Margins"],
             status: "Completed",
-            demoUrl: "css/Day1/box.html",
-            codeUrl: "css/Day1/box.html"
+            demoUrl: "CSS/Day1/box.html",
+            codeUrl: "CSS/Day1/box.html"
           },
           {
             id: "css-d1-t2",
@@ -646,8 +646,8 @@ const TASKS_DATA = [
             description: "Styled student photo identification card with rounded corners, custom badges, and clean typography.",
             technologies: ["CSS3", "ID Card", "Border Radius", "Shadows"],
             status: "Completed",
-            demoUrl: "css/Day1/studentidcard.html",
-            codeUrl: "css/Day1/studentidcard.html"
+            demoUrl: "CSS/Day1/studentidcard.html",
+            codeUrl: "CSS/Day1/studentidcard.html"
           },
           {
             id: "css-d1-t3",
@@ -656,8 +656,8 @@ const TASKS_DATA = [
             description: "Interactive social profile card with avatar styling, status indicators, and button hover states.",
             technologies: ["CSS3", "Profile Card", "Hover Effects"],
             status: "Completed",
-            demoUrl: "css/Day1/profilecard.html",
-            codeUrl: "css/Day1/profilecard.html"
+            demoUrl: "CSS/Day1/profilecard.html",
+            codeUrl: "CSS/Day1/profilecard.html"
           },
           {
             id: "css-d1-t4",
@@ -666,8 +666,8 @@ const TASKS_DATA = [
             description: "Formatted card collection displaying university academic branches with distinct color-accented headers.",
             technologies: ["CSS3", "Card Layout", "Color Schemes"],
             status: "Completed",
-            demoUrl: "css/Day1/collegedepartments.html",
-            codeUrl: "css/Day1/collegedepartments.html"
+            demoUrl: "CSS/Day1/collegedepartments.html",
+            codeUrl: "CSS/Day1/collegedepartments.html"
           },
           {
             id: "css-d1-t5",
@@ -676,8 +676,8 @@ const TASKS_DATA = [
             description: "Enterprise layout presenting business overview, contact info, and styled department cards.",
             technologies: ["CSS3", "Company Info", "Typography"],
             status: "Completed",
-            demoUrl: "css/Day1/companyinformation.html",
-            codeUrl: "css/Day1/companyinformation.html"
+            demoUrl: "CSS/Day1/companyinformation.html",
+            codeUrl: "CSS/Day1/companyinformation.html"
           },
           {
             id: "css-d1-t6",
@@ -686,8 +686,8 @@ const TASKS_DATA = [
             description: "Personalized showcase displaying favorite hobbies and interests formatted with custom CSS.",
             technologies: ["CSS3", "Showcase", "Backgrounds"],
             status: "Completed",
-            demoUrl: "css/Day1/favourite.html",
-            codeUrl: "css/Day1/favourite.html"
+            demoUrl: "CSS/Day1/favourite.html",
+            codeUrl: "CSS/Day1/favourite.html"
           },
           {
             id: "css-d1-t7",
@@ -696,8 +696,8 @@ const TASKS_DATA = [
             description: "Practical analysis of inline CSS style attributes on heading, paragraph, and span tags.",
             technologies: ["CSS3", "Inline Styles", "Specifics"],
             status: "Completed",
-            demoUrl: "css/Day1/inline.html",
-            codeUrl: "css/Day1/inline.html"
+            demoUrl: "CSS/Day1/inline.html",
+            codeUrl: "CSS/Day1/inline.html"
           },
           {
             id: "css-d1-t8",
@@ -706,8 +706,8 @@ const TASKS_DATA = [
             description: "Implementation of internal embedded stylesheets using the style tag in document head.",
             technologies: ["CSS3", "Internal Stylesheet", "Tag Selectors"],
             status: "Completed",
-            demoUrl: "css/Day1/internel.html",
-            codeUrl: "css/Day1/internel.html"
+            demoUrl: "CSS/Day1/internel.html",
+            codeUrl: "CSS/Day1/internel.html"
           }
         ]
       },
@@ -722,8 +722,8 @@ const TASKS_DATA = [
             description: "Clean healthcare layout with doctor cards, emergency buttons, and sanitized color themes.",
             technologies: ["CSS3", "Healthcare UI", "Color Palette"],
             status: "Completed",
-            demoUrl: "css/Day2/hospital.html",
-            codeUrl: "css/Day2/hospital.html"
+            demoUrl: "CSS/Day2/hospital.html",
+            codeUrl: "CSS/Day2/hospital.html"
           },
           {
             id: "css-d2-t2",
@@ -732,8 +732,8 @@ const TASKS_DATA = [
             description: "Corporate tech directory featuring company cards with box shadows, badges, and sleek layout.",
             technologies: ["CSS3", "Box Shadows", "Cards"],
             status: "Completed",
-            demoUrl: "css/Day2/itcompany.html",
-            codeUrl: "css/Day2/itcompany.html"
+            demoUrl: "CSS/Day2/itcompany.html",
+            codeUrl: "CSS/Day2/itcompany.html"
           },
           {
             id: "css-d2-t3",
@@ -742,8 +742,8 @@ const TASKS_DATA = [
             description: "Cinema showcase featuring movie posters, star ratings, and glowing action buttons.",
             technologies: ["CSS3", "Dark Theme", "Movie Card"],
             status: "Completed",
-            demoUrl: "css/Day2/movie.html",
-            codeUrl: "css/Day2/movie.html"
+            demoUrl: "CSS/Day2/movie.html",
+            codeUrl: "CSS/Day2/movie.html"
           },
           {
             id: "css-d2-t4",
@@ -752,8 +752,8 @@ const TASKS_DATA = [
             description: "Polished user profile containing skill badges, bio section, and styled contact links.",
             technologies: ["CSS3", "Profile UI", "Border Radius"],
             status: "Completed",
-            demoUrl: "css/Day2/profile.html",
-            codeUrl: "css/Day2/profile.html"
+            demoUrl: "CSS/Day2/profile.html",
+            codeUrl: "CSS/Day2/profile.html"
           },
           {
             id: "css-d2-t5",
@@ -762,8 +762,8 @@ const TASKS_DATA = [
             description: "Educational faculty card grid with responsive spacing and external stylesheet linkage.",
             technologies: ["CSS3", "External CSS", "Card Grid"],
             status: "Completed",
-            demoUrl: "css/Day2/college.html",
-            codeUrl: "css/Day2/college.html"
+            demoUrl: "CSS/Day2/college.html",
+            codeUrl: "CSS/Day2/college.html"
           },
           {
             id: "css-d2-t6",
@@ -772,8 +772,8 @@ const TASKS_DATA = [
             description: "Corporate portal featuring branch locations, tech stacks, and modern typography.",
             technologies: ["CSS3", "Corporate UI", "Typography"],
             status: "Completed",
-            demoUrl: "css/Day2/company.html",
-            codeUrl: "css/Day2/company.html"
+            demoUrl: "CSS/Day2/company.html",
+            codeUrl: "CSS/Day2/company.html"
           }
         ]
       },
@@ -788,8 +788,8 @@ const TASKS_DATA = [
             description: "E-commerce product card with discount badge, price formatting, star ratings, and 'Add to Cart' button.",
             technologies: ["CSS3", "E-Commerce", "Product Card", "Badges"],
             status: "Completed",
-            demoUrl: "css/Day3/product.html",
-            codeUrl: "css/Day3/product.html"
+            demoUrl: "CSS/Day3/product.html",
+            codeUrl: "CSS/Day3/product.html"
           },
           {
             id: "css-d3-t2",
@@ -798,8 +798,8 @@ const TASKS_DATA = [
             description: "Editorial news layout with styled headings, blockquotes, and image captions.",
             technologies: ["CSS3", "Typography", "Article Styling"],
             status: "Completed",
-            demoUrl: "css/Day3/article.html",
-            codeUrl: "css/Day3/article.html"
+            demoUrl: "CSS/Day3/article.html",
+            codeUrl: "CSS/Day3/article.html"
           },
           {
             id: "css-d3-t3",
@@ -808,8 +808,8 @@ const TASKS_DATA = [
             description: "Compact corporate employee pass with photo container, title, and barcode styling.",
             technologies: ["CSS3", "ID Card", "Components"],
             status: "Completed",
-            demoUrl: "css/Day3/idcard.html",
-            codeUrl: "css/Day3/idcard.html"
+            demoUrl: "CSS/Day3/idcard.html",
+            codeUrl: "CSS/Day3/idcard.html"
           },
           {
             id: "css-d3-t4",
@@ -818,8 +818,8 @@ const TASKS_DATA = [
             description: "Exact pixel-perfect box model exercise testing margin collapse and border width calculations.",
             technologies: ["CSS3", "Box Model", "Dimensions"],
             status: "Completed",
-            demoUrl: "css/Day3/minibox.html",
-            codeUrl: "css/Day3/minibox.html"
+            demoUrl: "CSS/Day3/minibox.html",
+            codeUrl: "CSS/Day3/minibox.html"
           },
           {
             id: "css-d3-t5",
@@ -828,8 +828,8 @@ const TASKS_DATA = [
             description: "Alternate student card layout exploring pill badges and dual-tone backgrounds.",
             technologies: ["CSS3", "Profile Card", "Gradients"],
             status: "Completed",
-            demoUrl: "css/Day3/profile.html",
-            codeUrl: "css/Day3/profile.html"
+            demoUrl: "CSS/Day3/profile.html",
+            codeUrl: "CSS/Day3/profile.html"
           },
           {
             id: "css-d3-t6",
@@ -838,8 +838,8 @@ const TASKS_DATA = [
             description: "Comprehensive integrated showcase explaining box model principles through interactive visual cards.",
             technologies: ["CSS3", "Full Project", "Box Model"],
             status: "Completed",
-            demoUrl: "css/Day3/project.html",
-            codeUrl: "css/Day3/project.html"
+            demoUrl: "CSS/Day3/project.html",
+            codeUrl: "CSS/Day3/project.html"
           }
         ]
       },
@@ -854,8 +854,8 @@ const TASKS_DATA = [
             description: "Investigation of inline, block, inline-block, and none display modes across multiple scenarios.",
             technologies: ["CSS3", "Display Properties", "Layout"],
             status: "Completed",
-            demoUrl: "css/Day4/index.html",
-            codeUrl: "css/Day4/index.html"
+            demoUrl: "CSS/Day4/index.html",
+            codeUrl: "CSS/Day4/index.html"
           },
           {
             id: "css-d4-t2",
@@ -864,8 +864,8 @@ const TASKS_DATA = [
             description: "Transforming standard inline anchors and spans into block buttons with width and padding control.",
             technologies: ["CSS3", "Inline to Block", "Buttons"],
             status: "Completed",
-            demoUrl: "css/Day4/index1.html",
-            codeUrl: "css/Day4/index1.html"
+            demoUrl: "CSS/Day4/index1.html",
+            codeUrl: "CSS/Day4/index1.html"
           },
           {
             id: "css-d4-t3",
@@ -874,8 +874,8 @@ const TASKS_DATA = [
             description: "Centering techniques using auto margins, text-align, and inline-block alignments.",
             technologies: ["CSS3", "Centering", "Margins"],
             status: "Completed",
-            demoUrl: "css/Day4/index2.html",
-            codeUrl: "css/Day4/index2.html"
+            demoUrl: "CSS/Day4/index2.html",
+            codeUrl: "CSS/Day4/index2.html"
           },
           {
             id: "css-d4-t4",
@@ -884,8 +884,8 @@ const TASKS_DATA = [
             description: "Live comparison showing how display:none removes elements from layout flow while visibility:hidden reserves space.",
             technologies: ["CSS3", "Visibility", "Display None"],
             status: "Completed",
-            demoUrl: "css/Day4/index3.html",
-            codeUrl: "css/Day4/index3.html"
+            demoUrl: "CSS/Day4/index3.html",
+            codeUrl: "CSS/Day4/index3.html"
           },
           {
             id: "css-d4-t5",
@@ -894,8 +894,8 @@ const TASKS_DATA = [
             description: "Interactive UI showing card removal and space reflow behaviors in multi-card grids.",
             technologies: ["CSS3", "Card Layout", "Reflow"],
             status: "Completed",
-            demoUrl: "css/Day4/index4.html",
-            codeUrl: "css/Day4/index4.html"
+            demoUrl: "CSS/Day4/index4.html",
+            codeUrl: "CSS/Day4/index4.html"
           }
         ]
       },
@@ -910,8 +910,8 @@ const TASKS_DATA = [
             description: "Deep dive into justify-content, align-items, flex-direction, flex-wrap, and gap properties.",
             technologies: ["CSS3", "Flexbox", "Alignment", "Grid Gap"],
             status: "Completed",
-            demoUrl: "css/Day5/index.html",
-            codeUrl: "css/Day5/index.html"
+            demoUrl: "CSS/Day5/index.html",
+            codeUrl: "CSS/Day5/index.html"
           },
           {
             id: "css-d5-t2",
@@ -920,8 +920,8 @@ const TASKS_DATA = [
             description: "Responsive flexbox navbar with logo, centered navigation links, and styled CTA button.",
             technologies: ["CSS3", "Flexbox Navbar", "Hover States"],
             status: "Completed",
-            demoUrl: "css/Daysub5/navigation.html",
-            codeUrl: "css/Daysub5/navigation.html"
+            demoUrl: "CSS/Daysub5/navigation.html",
+            codeUrl: "CSS/Daysub5/navigation.html"
           },
           {
             id: "css-d5-t3",
@@ -930,8 +930,8 @@ const TASKS_DATA = [
             description: "Portfolio layout featuring bio card, technical skill tags, project grid, and contact links.",
             technologies: ["CSS3", "Portfolio", "Flexbox"],
             status: "Completed",
-            demoUrl: "css/Daysub5/Portfolio.html",
-            codeUrl: "css/Daysub5/Portfolio.html"
+            demoUrl: "CSS/Daysub5/Portfolio.html",
+            codeUrl: "CSS/Daysub5/Portfolio.html"
           },
           {
             id: "css-d5-t4",
@@ -940,8 +940,8 @@ const TASKS_DATA = [
             description: "Card layout with flex column orientation, pricing details, and responsive sizing.",
             technologies: ["CSS3", "Product Cards", "Flex Layout"],
             status: "Completed",
-            demoUrl: "css/Daysub5/product.html",
-            codeUrl: "css/Daysub5/product.html"
+            demoUrl: "CSS/Daysub5/product.html",
+            codeUrl: "CSS/Daysub5/product.html"
           },
           {
             id: "css-d5-t5",
@@ -950,8 +950,8 @@ const TASKS_DATA = [
             description: "Student portal layout featuring attendance metrics, class schedules, and announcement alerts.",
             technologies: ["CSS3", "Dashboard", "Flexbox"],
             status: "Completed",
-            demoUrl: "css/Daysub5/index .html",
-            codeUrl: "css/Daysub5/index .html"
+            demoUrl: "CSS/Daysub5/index .html",
+            codeUrl: "CSS/Daysub5/index .html"
           }
         ]
       },
@@ -966,8 +966,8 @@ const TASKS_DATA = [
             description: "Floating help chat button pinned to screen corner using CSS position: fixed with smooth hover pulse.",
             technologies: ["CSS3", "Fixed Position", "Widgets"],
             status: "Completed",
-            demoUrl: "css/Day6/task1.html",
-            codeUrl: "css/Day6/task1.html"
+            demoUrl: "CSS/Day6/task1.html",
+            codeUrl: "CSS/Day6/task1.html"
           },
           {
             id: "css-d6-t2",
@@ -976,8 +976,8 @@ const TASKS_DATA = [
             description: "Website navigation bar that stays locked at the top of the viewport during scrolling using position: sticky.",
             technologies: ["CSS3", "Sticky Position", "Sticky Navbar"],
             status: "Completed",
-            demoUrl: "css/Day6/task2.html",
-            codeUrl: "css/Day6/task2.html"
+            demoUrl: "CSS/Day6/task2.html",
+            codeUrl: "CSS/Day6/task2.html"
           },
           {
             id: "css-d6-t3",
@@ -986,8 +986,8 @@ const TASKS_DATA = [
             description: "Cart icon with absolute badge positioned on top-right corner using relative/absolute parent-child positioning.",
             technologies: ["CSS3", "Absolute Position", "Badges"],
             status: "Completed",
-            demoUrl: "css/Day6/task3.html",
-            codeUrl: "css/Day6/task3.html"
+            demoUrl: "CSS/Day6/task3.html",
+            codeUrl: "CSS/Day6/task3.html"
           },
           {
             id: "css-d6-t4",
@@ -996,8 +996,8 @@ const TASKS_DATA = [
             description: "Testing element offset (top, left, z-index) without breaking the normal document flow.",
             technologies: ["CSS3", "Relative Position", "Z-Index"],
             status: "Completed",
-            demoUrl: "css/Day6/task4.html",
-            codeUrl: "css/Day6/task4.html"
+            demoUrl: "CSS/Day6/task4.html",
+            codeUrl: "CSS/Day6/task4.html"
           },
           {
             id: "css-d6-t5",
@@ -1006,8 +1006,8 @@ const TASKS_DATA = [
             description: "Side-by-side benchmark comparing static, relative, absolute, fixed, and sticky behaviors.",
             technologies: ["CSS3", "Positioning Master", "Layout"],
             status: "Completed",
-            demoUrl: "css/Day6/task5.html",
-            codeUrl: "css/Day6/task5.html"
+            demoUrl: "CSS/Day6/task5.html",
+            codeUrl: "CSS/Day6/task5.html"
           }
         ]
       },
@@ -1022,8 +1022,8 @@ const TASKS_DATA = [
             description: "Multi-row photo gallery using CSS grid-template-columns and object-fit cover styling.",
             technologies: ["CSS3", "CSS Grid", "Image Gallery"],
             status: "Completed",
-            demoUrl: "css/Day7/index.html",
-            codeUrl: "css/Day7/index.html"
+            demoUrl: "CSS/Day7/index.html",
+            codeUrl: "CSS/Day7/index.html"
           },
           {
             id: "css-d7-t2",
@@ -1032,8 +1032,8 @@ const TASKS_DATA = [
             description: "Grid-based student portal with sidebar navigation, summary metric cards, and schedule panels.",
             technologies: ["CSS3", "Grid Dashboard", "Portal"],
             status: "Completed",
-            demoUrl: "css/Day7/index1.html",
-            codeUrl: "css/Day7/index1.html"
+            demoUrl: "CSS/Day7/index1.html",
+            codeUrl: "CSS/Day7/index1.html"
           },
           {
             id: "css-d7-t3",
@@ -1042,8 +1042,8 @@ const TASKS_DATA = [
             description: "Shopping grid adapting from 1 column on mobile to 4 columns on desktop with auto-fit.",
             technologies: ["CSS3", "CSS Grid", "Product Cards", "Auto-Fit"],
             status: "Completed",
-            demoUrl: "css/Day7/index2.html",
-            codeUrl: "css/Day7/index2.html"
+            demoUrl: "CSS/Day7/index2.html",
+            codeUrl: "CSS/Day7/index2.html"
           },
           {
             id: "css-d7-t4",
@@ -1052,8 +1052,8 @@ const TASKS_DATA = [
             description: "Corporate offerings showcase with card hover highlights, icon boxes, and clean typography.",
             technologies: ["CSS3", "Services Grid", "Hover Effects"],
             status: "Completed",
-            demoUrl: "css/Day7/index3.html",
-            codeUrl: "css/Day7/index3.html"
+            demoUrl: "CSS/Day7/index3.html",
+            codeUrl: "CSS/Day7/index3.html"
           }
         ]
       },
@@ -1068,8 +1068,8 @@ const TASKS_DATA = [
             description: "Interactive button styles featuring color shifts, scale transforms, and glowing borders on hover.",
             technologies: ["CSS3", "Pseudo-classes", "Hover Animations"],
             status: "Completed",
-            demoUrl: "css/Day8/index.html",
-            codeUrl: "css/Day8/index.html"
+            demoUrl: "CSS/Day8/index.html",
+            codeUrl: "CSS/Day8/index.html"
           },
           {
             id: "css-d8-t2",
@@ -1078,8 +1078,8 @@ const TASKS_DATA = [
             description: "Form inputs styled dynamically using :focus, :valid, :invalid, and :disabled states.",
             technologies: ["CSS3", "Form Styling", ":focus / :valid"],
             status: "Completed",
-            demoUrl: "css/Day8/index1.html",
-            codeUrl: "css/Day8/index1.html"
+            demoUrl: "CSS/Day8/index1.html",
+            codeUrl: "CSS/Day8/index1.html"
           },
           {
             id: "css-d8-t3",
@@ -1088,8 +1088,8 @@ const TASKS_DATA = [
             description: "Zebra-striped table rows and alternating student roster styling using nth-child(even) and nth-child(odd).",
             technologies: ["CSS3", ":nth-child", "Zebra Striping"],
             status: "Completed",
-            demoUrl: "css/Day8/index2.html",
-            codeUrl: "css/Day8/index2.html"
+            demoUrl: "CSS/Day8/index2.html",
+            codeUrl: "CSS/Day8/index2.html"
           },
           {
             id: "css-d8-t4",
@@ -1098,8 +1098,8 @@ const TASKS_DATA = [
             description: "Decorative icons, quotes, underlines, and ribbon badges generated purely with CSS ::before and ::after.",
             technologies: ["CSS3", "::before / ::after", "Decorative CSS"],
             status: "Completed",
-            demoUrl: "css/Day8/index3.html",
-            codeUrl: "css/Day8/index3.html"
+            demoUrl: "CSS/Day8/index3.html",
+            codeUrl: "CSS/Day8/index3.html"
           },
           {
             id: "css-d8-t5",
@@ -1108,8 +1108,8 @@ const TASKS_DATA = [
             description: "Advanced text styling with ::first-letter drop caps and ::first-line formatting.",
             technologies: ["CSS3", "::first-letter", "Drop Caps"],
             status: "Completed",
-            demoUrl: "css/Day8/index4.html",
-            codeUrl: "css/Day8/index4.html"
+            demoUrl: "CSS/Day8/index4.html",
+            codeUrl: "CSS/Day8/index4.html"
           }
         ]
       },
@@ -1124,8 +1124,8 @@ const TASKS_DATA = [
             description: "Smooth background color transitions and ease-in-out button transformations.",
             technologies: ["CSS3", "Transitions", "Transform"],
             status: "Completed",
-            demoUrl: "css/Day9/index.html",
-            codeUrl: "css/Day9/index.html"
+            demoUrl: "CSS/Day9/index.html",
+            codeUrl: "CSS/Day9/index.html"
           },
           {
             id: "css-d9-t2",
@@ -1134,8 +1134,8 @@ const TASKS_DATA = [
             description: "Image containers with overflow:hidden where pictures scale up smoothly on hover without overflowing.",
             technologies: ["CSS3", "Scale Transform", "Gallery Zoom"],
             status: "Completed",
-            demoUrl: "css/Day9/index1.html",
-            codeUrl: "css/Day9/index1.html"
+            demoUrl: "CSS/Day9/index1.html",
+            codeUrl: "CSS/Day9/index1.html"
           },
           {
             id: "css-d9-t3",
@@ -1144,8 +1144,8 @@ const TASKS_DATA = [
             description: "Interactive cards that translate upwards (translateY) with expanding drop-shadows on hover.",
             technologies: ["CSS3", "Hover Lift", "Box Shadow"],
             status: "Completed",
-            demoUrl: "css/Day9/index2.html",
-            codeUrl: "css/Day9/index2.html"
+            demoUrl: "CSS/Day9/index2.html",
+            codeUrl: "CSS/Day9/index2.html"
           },
           {
             id: "css-d9-t4",
@@ -1154,8 +1154,8 @@ const TASKS_DATA = [
             description: "Keyframe-powered infinite logo rotation and hover-triggered 360-degree spins.",
             technologies: ["CSS3", "Rotate Transform", "Animations"],
             status: "Completed",
-            demoUrl: "css/Day9/index3.html",
-            codeUrl: "css/Day9/index3.html"
+            demoUrl: "CSS/Day9/index3.html",
+            codeUrl: "CSS/Day9/index3.html"
           },
           {
             id: "css-d9-t5",
@@ -1164,8 +1164,8 @@ const TASKS_DATA = [
             description: "Card tilt and perspective transforms delivering subtle 3D interactive depth.",
             technologies: ["CSS3", "3D Transforms", "Perspective"],
             status: "Completed",
-            demoUrl: "css/Day9/index4.html",
-            codeUrl: "css/Day9/index4.html"
+            demoUrl: "CSS/Day9/index4.html",
+            codeUrl: "CSS/Day9/index4.html"
           }
         ]
       },
@@ -1180,8 +1180,8 @@ const TASKS_DATA = [
             description: "Full responsive multi-section portal demonstrating CSS positioning, flexbox alignments, and modular CSS architecture.",
             technologies: ["CSS3", "Capstone Project", "E-Commerce", "Responsive"],
             status: "Completed",
-            demoUrl: "css/Day10/project.html",
-            codeUrl: "css/Day10/project.html"
+            demoUrl: "CSS/Day10/project.html",
+            codeUrl: "CSS/Day10/project.html"
           },
           {
             id: "css-d10-t2",
@@ -1190,8 +1190,8 @@ const TASKS_DATA = [
             description: "Directory layout featuring searchable student cards, category filters, and contact actions.",
             technologies: ["CSS3", "Directory", "Filter UI"],
             status: "Completed",
-            demoUrl: "css/Day10/task1.html",
-            codeUrl: "css/Day10/task1.html"
+            demoUrl: "CSS/Day10/task1.html",
+            codeUrl: "CSS/Day10/task1.html"
           },
           {
             id: "css-d10-t3",
@@ -1200,8 +1200,8 @@ const TASKS_DATA = [
             description: "Grid of featured electronics with stock status badges, reviews, and interactive action buttons.",
             technologies: ["CSS3", "Store Showcase", "Grid"],
             status: "Completed",
-            demoUrl: "css/Day10/task2.html",
-            codeUrl: "css/Day10/task2.html"
+            demoUrl: "CSS/Day10/task2.html",
+            codeUrl: "CSS/Day10/task2.html"
           },
           {
             id: "css-d10-t4",
@@ -1210,8 +1210,8 @@ const TASKS_DATA = [
             description: "Corporate executive team cards with avatars, position titles, and social profile links.",
             technologies: ["CSS3", "Team Cards", "Social Links"],
             status: "Completed",
-            demoUrl: "css/Day10/task3.html",
-            codeUrl: "css/Day10/task3.html"
+            demoUrl: "CSS/Day10/task3.html",
+            codeUrl: "CSS/Day10/task3.html"
           },
           {
             id: "css-d10-t5",
@@ -1220,8 +1220,8 @@ const TASKS_DATA = [
             description: "Detailed IT solutions grid with gradient headers, bullet checklists, and pricing links.",
             technologies: ["CSS3", "Services UI", "Gradients"],
             status: "Completed",
-            demoUrl: "css/Day10/task4.html",
-            codeUrl: "css/Day10/task4.html"
+            demoUrl: "CSS/Day10/task4.html",
+            codeUrl: "CSS/Day10/task4.html"
           },
           {
             id: "css-d10-t6",
@@ -1230,8 +1230,8 @@ const TASKS_DATA = [
             description: "Full responsive portfolio highlighting recent work, coding skills, and contact form.",
             technologies: ["CSS3", "Portfolio", "Responsive Design"],
             status: "Completed",
-            demoUrl: "css/Day10/task5.html",
-            codeUrl: "css/Day10/task5.html"
+            demoUrl: "CSS/Day10/task5.html",
+            codeUrl: "CSS/Day10/task5.html"
           }
         ]
       },
@@ -1246,8 +1246,8 @@ const TASKS_DATA = [
             description: "Collection of cards exploring elevated box-shadows, badge placements, and responsive auto-wrapping.",
             technologies: ["CSS3", "Card Components", "Elevation"],
             status: "Completed",
-            demoUrl: "css/cards/cards.html",
-            codeUrl: "css/cards/cards.html"
+            demoUrl: "CSS/cards/cards.html",
+            codeUrl: "CSS/cards/cards.html"
           },
           {
             id: "css-spec-t2",
@@ -1256,8 +1256,8 @@ const TASKS_DATA = [
             description: "Comprehensive editorial article guide explaining web technologies with custom typography and sidebars.",
             technologies: ["CSS3", "Editorial Guide", "Typography"],
             status: "Completed",
-            demoUrl: "css/webarticle/webarticle.html",
-            codeUrl: "css/webarticle/webarticle.html"
+            demoUrl: "CSS/webarticle/webarticle.html",
+            codeUrl: "CSS/webarticle/webarticle.html"
           }
         ]
       }
@@ -1278,105 +1278,17 @@ const TASKS_DATA = [
     days: [
       {
         day: 1,
-        title: "Utility-First Workflow & Core Classes",
+        title: "Utility-First Styling & Modern Card",
         tasks: [
           {
             id: "tw-d1-t1",
             taskNumber: 1,
-            title: "Modern Landing Page Hero",
-            description: "Engineered a high-conversion hero section with gradient typography, pill badge announcements, and dual CTA buttons.",
+            title: "Modern Card & Utility Classes",
+            description: "Single-file task demonstrating Tailwind CSS utility classes including flexbox, responsive padding, rounded borders, gradient backgrounds, and hover transitions.",
             technologies: ["Tailwind CSS", "Flexbox", "Typography", "Gradients"],
             status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          },
-          {
-            id: "tw-d1-t2",
-            taskNumber: 2,
-            title: "Responsive Feature Grid",
-            description: "Constructed a 3-column responsive feature grid utilizing grid-cols-1 md:grid-cols-2 lg:grid-cols-3 with hover scale effects.",
-            technologies: ["Tailwind CSS", "Grid", "Hover Modifiers", "Icons"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          }
-        ]
-      },
-      {
-        day: 2,
-        title: "E-Commerce Cards & Flexbox Alignment",
-        tasks: [
-          {
-            id: "tw-d2-t1",
-            taskNumber: 1,
-            title: "Product Card with Rating & Badge",
-            description: "Crafted sleek e-commerce cards featuring aspect-ratio image containers, rounded corners, stock badges, and transition states.",
-            technologies: ["Tailwind CSS", "Aspect Ratio", "Badges", "Shadows"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          },
-          {
-            id: "tw-d2-t2",
-            taskNumber: 2,
-            title: "Shopping Cart Item Row",
-            description: "Interactive cart item layout with quantity counter, thumbnail image, and delete action with smooth transitions.",
-            technologies: ["Tailwind CSS", "Flexbox", "Buttons", "Transitions"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          }
-        ]
-      },
-      {
-        day: 3,
-        title: "SaaS Pricing Table & Dark Mode",
-        tasks: [
-          {
-            id: "tw-d3-t1",
-            taskNumber: 1,
-            title: "Tiered SaaS Pricing Comparison",
-            description: "Three-tier pricing table featuring a highlighted 'Most Popular' plan with gradient ring border and feature checklists.",
-            technologies: ["Tailwind CSS", "Ring Utilities", "Pricing Table", "Responsive"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          },
-          {
-            id: "tw-d3-t2",
-            taskNumber: 2,
-            title: "Dark Mode Theme Switcher Component",
-            description: "Implemented dark mode support using Tailwind's dark: variant classes for seamless background and text color transitions.",
-            technologies: ["Tailwind CSS", "Dark Mode", "Transitions", "Accessibility"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          }
-        ]
-      },
-      {
-        day: 4,
-        title: "User Profile & Dashboard Analytics Cards",
-        tasks: [
-          {
-            id: "tw-d4-t1",
-            taskNumber: 1,
-            title: "Developer Profile & Stats Banner",
-            description: "Card layout featuring avatar with online indicator ring, bio tags, follower counters, and interactive action buttons.",
-            technologies: ["Tailwind CSS", "Avatars", "Status Indicators", "Cards"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          },
-          {
-            id: "tw-d4-t2",
-            taskNumber: 2,
-            title: "KPI Analytics Summary Widgets",
-            description: "Dashboard metric cards with trend indicators (percentage rise/fall), sparkline placeholders, and clean padding.",
-            technologies: ["Tailwind CSS", "Dashboard", "Metrics", "Flexbox"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
+            demoUrl: "tailwind/Day1/index.html",
+            codeUrl: "tailwind/Day1/index.html"
           }
         ]
       }
@@ -1393,99 +1305,41 @@ const TASKS_DATA = [
     icon: "fa-brands fa-bootstrap",
     color: "#8b5cf6",
     gradient: "linear-gradient(135deg, #8b5cf6, #6d28d9)",
-    description: "Responsive 12-column grid, ready-to-use UI components, modals, navbars, cards, and utility classes.",
+    description: "Responsive 12-column grid, ready-to-use UI components, containers, columns, cards, and utility classes.",
     days: [
       {
-        day: 1,
-        title: "Grid System & Container Layouts",
-        tasks: [
-          {
-            id: "bs-d1-t1",
-            taskNumber: 1,
-            title: "12-Column Grid Exploration",
-            description: "Comprehensive testing of Bootstrap container, row, and col-* breakpoint classes (col-sm, col-md, col-lg, col-xl).",
-            technologies: ["Bootstrap 5", "Grid System", "Breakpoints"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          },
-          {
-            id: "bs-d1-t2",
-            taskNumber: 2,
-            title: "Responsive Typography & Spacing Utilities",
-            description: "Implemented display headings, lead paragraphs, text alignment utilities, and spacing helpers (m-*, p-*).",
-            technologies: ["Bootstrap 5", "Utilities", "Typography"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          }
-        ]
-      },
-      {
         day: 2,
-        title: "Responsive Anime Portal with Bootstrap 5",
+        title: "Containers & Responsive Multi-Column Grid",
         tasks: [
           {
             id: "bs-d2-t1",
             taskNumber: 1,
-            title: "Solo Leveling - Responsive Anime Portal",
-            description: "Full responsive webpage built with Bootstrap 5 navbar, hero jumbotron, card deck, and interactive footer.",
-            technologies: ["Bootstrap 5", "Navbar", "Card Deck", "Jumbotron"],
+            title: "Assignment 1 — Basic Container",
+            description: "Basic container demonstrating Bootstrap layout spacing, rounded corners, light background, and button styling.",
+            technologies: ["Bootstrap 5", "Container", "Spacing Utilities"],
             status: "Completed",
-            demoUrl: "bootstrap/Day2/index.html",
-            codeUrl: "bootstrap/Day2/index.html"
-          }
-        ]
-      },
-      {
-        day: 3,
-        title: "Forms & Input Groups",
-        tasks: [
-          {
-            id: "bs-d3-t1",
-            taskNumber: 1,
-            title: "Floating Labels & Form Controls",
-            description: "Engineered user registration page with Bootstrap floating labels, input groups with icon add-ons, and form checks.",
-            technologies: ["Bootstrap 5", "Forms", "Floating Labels", "Validation"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
+            demoUrl: "bootstrap/Day2/task1.html",
+            codeUrl: "bootstrap/Day2/task1.html"
           },
           {
-            id: "bs-d3-t2",
+            id: "bs-d2-t2",
             taskNumber: 2,
-            title: "Client-Side Form Validation UI",
-            description: "Interactive form providing immediate visual validation states using was-validated and is-valid/is-invalid classes.",
-            technologies: ["Bootstrap 5", "Validation", "Feedback States"],
+            title: "Assignment 2 — Two Column Layout",
+            description: "Two-column responsive grid row using col-6 with primary blue and warning yellow background colors.",
+            technologies: ["Bootstrap 5", "Grid System", "col-6"],
             status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
-          }
-        ]
-      },
-      {
-        day: 4,
-        title: "Interactive Components & Modals",
-        tasks: [
-          {
-            id: "bs-d4-t1",
-            taskNumber: 1,
-            title: "Interactive Modal Dialogs & Alerts",
-            description: "Configured dismissible alerts, confirmation modals, and slide-in offcanvas navigation sidebars.",
-            technologies: ["Bootstrap 5", "Modals", "Alerts", "Offcanvas"],
-            status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
+            demoUrl: "bootstrap/Day2/task2.html",
+            codeUrl: "bootstrap/Day2/task2.html"
           },
           {
-            id: "bs-d4-t2",
-            taskNumber: 2,
-            title: "Image Carousel & Accordion FAQ",
-            description: "Built a touch-swipe image carousel with indicators and a clean collapsible accordion FAQ section.",
-            technologies: ["Bootstrap 5", "Carousel", "Accordion", "JS Components"],
+            id: "bs-d2-t3",
+            taskNumber: 3,
+            title: "Assignment 3 — Three Column Responsive Grid",
+            description: "Three-column grid layout dividing the container into equal 4-column partitions (col-md-4) with card styling.",
+            technologies: ["Bootstrap 5", "Grid System", "col-md-4"],
             status: "Completed",
-            demoUrl: "#",
-            codeUrl: "#"
+            demoUrl: "bootstrap/Day2/task3.html",
+            codeUrl: "bootstrap/Day2/task3.html"
           }
         ]
       }
@@ -1902,6 +1756,22 @@ const TASKS_DATA = [
             status: "Completed",
             demoUrl: "react/Day5/rendering/index.html",
             codeUrl: "react/Day5/rendering/index.html"
+          }
+        ]
+      },
+      {
+        day: 7,
+        title: "React & Tailwind Mini Project",
+        tasks: [
+          {
+            id: "react-d7-t1",
+            taskNumber: 1,
+            title: "React Router & Tailwind Mini Project",
+            description: "Complete modern web application with Vite, React Router DOM, and Tailwind CSS utility styling.",
+            technologies: ["React 19", "Tailwind CSS", "React Router", "Vite"],
+            status: "Completed",
+            demoUrl: "react/Day7/miniroject/index.html",
+            codeUrl: "react/Day7/miniroject/index.html"
           }
         ]
       }

@@ -626,6 +626,28 @@
       DOM.modalExternalLink.href = demoUrl;
       DOM.modalExternalLink.style.display = 'inline-flex';
       DOM.modalFooterUrl.textContent = demoUrl;
+
+      // Smart auto-recovery for casing mismatches (css/ vs CSS/)
+      DOM.previewIframe.onload = function() {
+        try {
+          const doc = DOM.previewIframe.contentDocument || DOM.previewIframe.contentWindow?.document;
+          if (doc && (doc.title?.toLowerCase().includes('404') || doc.body?.textContent?.includes('Cannot GET /') || doc.body?.textContent?.includes('Not Found'))) {
+            if (DOM.previewIframe.src.includes('/css/')) {
+              const alt = DOM.previewIframe.src.replace('/css/', '/CSS/');
+              DOM.previewIframe.src = alt;
+              DOM.modalExternalLink.href = alt;
+              DOM.modalFooterUrl.textContent = alt;
+            } else if (DOM.previewIframe.src.includes('/CSS/')) {
+              const alt = DOM.previewIframe.src.replace('/CSS/', '/css/');
+              DOM.previewIframe.src = alt;
+              DOM.modalExternalLink.href = alt;
+              DOM.modalFooterUrl.textContent = alt;
+            }
+          }
+        } catch (e) {
+          // Cross-origin restriction
+        }
+      };
     } else {
       DOM.modalExternalLink.style.display = 'none';
       DOM.modalFooterUrl.textContent = 'Demo preview file not linked yet.';
