@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Architecture of Scalable AI Systems</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-black">
+  <main class="max-w-3xl mx-auto px-6 py-16">
+    <!-- Article Header -->
+    <header class="space-y-4 border-b border-slate-800 pb-8 mb-10">
+      <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-cyan-400">
+        <span>Cloud Architecture</span>
+        <span>•</span>
+        <span>7 min read</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+        Beyond the API Wrapper: Engineering Scalable AI Microservices
+      </h1>
+      <p class="text-lg text-slate-400 leading-relaxed">
+        Why standard microservice patterns break under non-deterministic workloads, and how modern engineering teams architect for latency, cost, and reliability.
+      </p>
+      <div class="flex items-center gap-3 pt-2">
+        <div class="w-10 h-10 rounded-full bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center font-bold text-cyan-300">
+          ENG
+        </div>
+        <div>
+          <p class="text-sm font-medium text-white">System Architecture Team</p>
+          <p class="text-xs text-slate-500">Published September 2026</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Article Content -->
+    <article class="prose prose-invert prose-cyan max-w-none space-y-8 text-slate-300 leading-relaxed">
+      <p class="text-lg text-slate-200">
+        Over the past decade, cloud engineering focused on stateless microservices, containerization, and horizontal autoscaling. Yet, integrating large-scale transformer models introduces fundamentally different constraints: extreme compute latency, high egress and token costs, and non-deterministic behavior.
+      </p>
+
+      <!-- Key Concept Card -->
+      <div class="rounded-xl border border-cyan-500/30 bg-cyan-950/20 p-6 space-y-2">
+        <h2 class="text-base font-semibold text-cyan-300 uppercase tracking-wide">The Fundamental Shift</h2>
+        <p class="text-sm text-slate-300">
+          Traditional APIs consume fixed compute and return predictable schemas. Foundation model endpoints fluctuate in runtime duration, cost per payload, and context consumption, necessitating asynchronous queues and strict inference caching.
+        </p>
+      </div>
+
+      <h2 class="text-2xl font-bold text-white tracking-tight">1. Mitigating the Multi-Second Latency Bottleneck</h2>
+      <p>
+        Synchronous request-response cycles fail when complex reasoning pipelines take several seconds to compute. Production architectures solve this through:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-300">
+        <li><strong>Server-Sent Events (SSE):</strong> Pushing partial tokens directly to client runtimes to preserve perceived responsiveness.</li>
+        <li><strong>Semantic Caching:</strong> Using vector similarity caches (e.g., Redis or Qdrant) to resolve identical or near-identical user queries with zero LLM compute overhead.</li>
+        <li><strong>Small Language Models (SLMs) at the Edge:</strong> Delegating preliminary routing, classification, and metadata extraction to 1B–3B parameter models hosted locally or on edge nodes.</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-white tracking-tight">2. Hybrid Retrieval Strategies</h2>
+      <p>
+        Vector databases alone often struggle with precision queries like SKU numbers, exact technical identifiers, and code signatures. Modern Retrieval-Augmented Generation (RAG) relies on a two-pass pipeline:
+      </p>
+
+      <!-- Code Snippet Container -->
+      <div class="rounded-lg bg-slate-900 border border-slate-800 p-4 font-mono text-xs overflow-x-auto text-cyan-200">
+        <code>
+          Query → [BM25 Sparse Lexical Search + HNSW Dense Embeddings] <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Reciprocal Rank Fusion (RRF) <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Cross-Encoder Reranker <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Compact Context Assembly → LLM
+        </code>
+      </div>
+
+      <h2 class="text-2xl font-bold text-white tracking-tight">3. Observability and Cost Governance</h2>
+      <p>
+        Because traditional APM metrics only measure HTTP status codes, failing model generations (such as structured schema validation errors or hallucinations) go undetected. Distributed tracing must track prompt tokens, completion tokens, latency per step, and confidence scoring.
+      </p>
+
+      <!-- Takeaway Box -->
+      <div class="border-l-4 border-cyan-500 bg-slate-900/60 p-4 rounded-r-lg">
+        <p class="text-sm text-slate-300 italic">
+          "Treat model providers as non-deterministic compute backends. Build resilient gateways around them with automatic failovers, rate-limit dampening, and cost-aware execution."
+        </p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

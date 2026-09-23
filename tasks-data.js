@@ -1331,6 +1331,22 @@ const TASKS_DATA = [
             codeUrl: "tailwind/Day1/task5.html"
           }
         ]
+      },
+      {
+        day: 2,
+        title: "Editorial Article — Scalable AI Systems Architecture",
+        tasks: [
+          {
+            id: "tw-d2-t1",
+            taskNumber: 1,
+            title: "Beyond the API Wrapper — Engineering Scalable AI Systems",
+            description: "Production editorial blog article layout crafted with modern Tailwind typography, author metadata banner, key concept cards, code snippet pipeline, and callout takeaway boxes.",
+            technologies: ["Tailwind CSS", "Typography", "Editorial Layout", "Code Blocks", "Cards"],
+            status: "Completed",
+            demoUrl: "tailwind/Day2/task1.html",
+            codeUrl: "tailwind/Day2/task1.html"
+          }
+        ]
       }
     ]
   },
