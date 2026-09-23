@@ -1274,21 +1274,61 @@ const TASKS_DATA = [
     icon: "fa-solid fa-wind",
     color: "#06b6d4",
     gradient: "linear-gradient(135deg, #06b6d4, #0284c7)",
-    description: "Utility-first workflow, rapid UI prototyping, responsive variants, dark mode, and state modifiers.",
+    description: "Utility-first workflow, rapid UI prototyping, responsive variants, typography, flexbox, and interactive hover states.",
     days: [
       {
         day: 1,
-        title: "Utility-First Styling & Modern Card",
+        title: "Tailwind Foundations — Typography, Boxes, Buttons & Flexbox",
         tasks: [
           {
             id: "tw-d1-t1",
             taskNumber: 1,
-            title: "Modern Card & Utility Classes",
-            description: "Single-file task demonstrating Tailwind CSS utility classes including flexbox, responsive padding, rounded borders, gradient backgrounds, and hover transitions.",
-            technologies: ["Tailwind CSS", "Flexbox", "Typography", "Gradients"],
+            title: "Task 1 — Text & Typography",
+            description: "Core Tailwind CSS typography classes with centered text, custom blue color (text-blue-500), font weights, and responsive sizing.",
+            technologies: ["Tailwind CSS", "Typography", "Colors"],
             status: "Completed",
-            demoUrl: "tailwind/Day1/index.html",
-            codeUrl: "tailwind/Day1/index.html"
+            demoUrl: "tailwind/Day1/task1.html",
+            codeUrl: "tailwind/Day1/task1.html"
+          },
+          {
+            id: "tw-d1-t2",
+            taskNumber: 2,
+            title: "Task 2 — Box Container",
+            description: "Card container styled with utility padding (p-5), blue background (bg-blue-500), rounded corners (rounded-lg), and white typography.",
+            technologies: ["Tailwind CSS", "Box Model", "Padding", "Rounded"],
+            status: "Completed",
+            demoUrl: "tailwind/Day1/task2.html",
+            codeUrl: "tailwind/Day1/task2.html"
+          },
+          {
+            id: "tw-d1-t3",
+            taskNumber: 3,
+            title: "Task 3 — Button Styling",
+            description: "Utility-styled interactive button demonstrating horizontal/vertical padding (px-4, py-2), background color, and border radius.",
+            technologies: ["Tailwind CSS", "Buttons", "Spacing"],
+            status: "Completed",
+            demoUrl: "tailwind/Day1/task3.html",
+            codeUrl: "tailwind/Day1/task3.html"
+          },
+          {
+            id: "tw-d1-t4",
+            taskNumber: 4,
+            title: "Task 4 — Two Boxes with Flexbox",
+            description: "Two-box layout using flexbox (flex) with consistent spacing gap (gap-4) and alternating primary and emerald color schemes.",
+            technologies: ["Tailwind CSS", "Flexbox", "Gap", "Color Schemes"],
+            status: "Completed",
+            demoUrl: "tailwind/Day1/task4.html",
+            codeUrl: "tailwind/Day1/task4.html"
+          },
+          {
+            id: "tw-d1-t5",
+            taskNumber: 5,
+            title: "Task 5 — Simple Hover State",
+            description: "Interactive button demonstrating hover pseudo-class modifiers (hover:bg-blue-700) for smooth state transitions.",
+            technologies: ["Tailwind CSS", "Hover States", "Pseudo-classes"],
+            status: "Completed",
+            demoUrl: "tailwind/Day1/task5.html",
+            codeUrl: "tailwind/Day1/task5.html"
           }
         ]
       }
@@ -1340,6 +1380,22 @@ const TASKS_DATA = [
             status: "Completed",
             demoUrl: "bootstrap/Day2/task3.html",
             codeUrl: "bootstrap/Day2/task3.html"
+          }
+        ]
+      },
+      {
+        day: 3,
+        title: "Navbar, Carousel, Cards & Contact Form",
+        tasks: [
+          {
+            id: "bs-d3-t1",
+            taskNumber: 1,
+            title: "DevStudio — Navbar, Carousel, Cards & Form",
+            description: "Comprehensive Bootstrap 5 showcase combining sticky navbar, hero carousel slider with indicators, responsive service cards, and an interactive contact form with validation.",
+            technologies: ["Bootstrap 5", "Navbar", "Carousel", "Cards", "Forms", "Bootstrap Icons"],
+            status: "Completed",
+            demoUrl: "bootstrap/Day3/task1.html",
+            codeUrl: "bootstrap/Day3/task1.html"
           }
         ]
       }

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment - Navbar, Carousel, Cards & Form</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  <!-- Bootstrap Icons CDN -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+  <style>
+    .carousel-item img {
+      height: 480px;
+      object-fit: cover;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- ================= 1. NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="bi bi-code-slash text-primary me-2"></i>DevStudio
+      </a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-sm px-3">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= 2. CAROUSEL (SLIDER) ================= -->
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img 
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80" 
+          class="d-block w-100" 
+          alt="Web Development"
+        >
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+          <h2 class="fw-bold">Modern Web Development</h2>
+          <p>Build fast, responsive, and beautiful websites using Bootstrap 5.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img 
+          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80" 
+          class="d-block w-100" 
+          alt="Data Analytics"
+        >
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+          <h2 class="fw-bold">Clean Code & Architecture</h2>
+          <p>Write standard code with well-structured components.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <img 
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80" 
+          class="d-block w-100" 
+          alt="Team Collaboration"
+        >
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+          <h2 class="fw-bold">Collaborative Projects</h2>
+          <p>Version control and deploy seamlessly with Git & GitHub.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- ================= 3. CARDS SECTION ================= -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Our Services</h2>
+        <p class="text-muted">Choose the best service that fits your project needs</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img 
+              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" 
+              class="card-img-top" 
+              alt="UI Design"
+            >
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">UI/UX Design</h5>
+              <p class="card-text text-secondary flex-grow-1">
+                Modern responsive layouts designed with Bootstrap grid, flexbox, and sleek typography.
+              </p>
+              <a href="#contact" class="btn btn-outline-primary mt-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img 
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" 
+              class="card-img-top" 
+              alt="Frontend Dev"
+            >
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Frontend Development</h5>
+              <p class="card-text text-secondary flex-grow-1">
+                Interactive web experiences built with clean HTML5 semantic structure, CSS3, and JavaScript.
+              </p>
+              <a href="#contact" class="btn btn-outline-primary mt-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img 
+              src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" 
+              class="card-img-top" 
+              alt="Backend & Cloud"
+            >
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Full Stack Solutions</h5>
+              <p class="card-text text-secondary flex-grow-1">
+                Connecting modern frontend applications with robust APIs and smooth deployment workflows.
+              </p>
+              <a href="#contact" class="btn btn-outline-primary mt-2">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 4. CONTACT FORM SECTION ================= -->
+  <section id="contact" class="py-5 bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow p-4 p-md-5">
+            <h3 class="fw-bold mb-3 text-center">Contact Us</h3>
+            <p class="text-muted text-center mb-4">Send your details, and we'll get back to you shortly.</p>
+
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="fullName" class="form-label fw-semibold">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="Enter your name" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="userEmail" class="form-label fw-semibold">Email Address</label>
+                  <input type="email" class="form-control" id="userEmail" placeholder="name@example.com" required>
+                </div>
+
+                <div class="col-12">
+                  <label for="serviceType" class="form-label fw-semibold">Select Service</label>
+                  <select class="form-select" id="serviceType" required>
+                    <option value="" selected disabled>Choose a service...</option>
+                    <option value="uiux">UI/UX Design</option>
+                    <option value="frontend">Frontend Development</option>
+                    <option value="fullstack">Full Stack Solutions</option>
+                  </select>
+                </div>
+
+                <div class="col-12">
+                  <label for="userMsg" class="form-label fw-semibold">Message</label>
+                  <textarea class="form-control" id="userMsg" rows="4" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="termsCheck" required>
+                    <label class="form-check-label text-muted" for="termsCheck">
+                      I agree to the terms and privacy policy.
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-12 text-center mt-4">
+                  <button type="submit" class="btn btn-primary px-5 py-2 fw-semibold">Submit Message</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0 small">&copy; 2026 DevStudio. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle (Includes Popper for Carousel & Navbar toggle) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
