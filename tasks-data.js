@@ -1431,6 +1431,22 @@ const TASKS_DATA = [
     description: "Variables, operators, control flow, functions, DOM manipulation, events, arrays, ES6+ features, and state.",
     days: [
       {
+        day: 1,
+        title: "JavaScript Foundations & Core Reference",
+        tasks: [
+          {
+            id: "js-d1-t1",
+            taskNumber: 1,
+            title: "JavaScript Introduction & Syntax Reference",
+            description: "Foundational reference guide covering core JavaScript syntax, execution model, variable declarations, and runtime concepts.",
+            technologies: ["JavaScript", "Fundamentals", "Language Reference"],
+            status: "Completed",
+            demoUrl: "js/Day1/1000215147.pdf",
+            codeUrl: "js/Day1/1000215147.pdf"
+          }
+        ]
+      },
+      {
         day: 2,
         title: "DOM Introduction & Class Tasks",
         tasks: [
@@ -1783,6 +1799,72 @@ const TASKS_DATA = [
             codeUrl: "js/Day10/index10.html"
           }
         ]
+      },
+      {
+        day: 11,
+        title: "Callbacks, Closures & Array Manipulation",
+        tasks: [
+          {
+            id: "js-d11-t1",
+            taskNumber: 1,
+            title: "Task 1 — Simple Callback Function",
+            description: "Implemented a processNumber function accepting a value and a callback function, invoking the callback with the processed number and logging the output.",
+            technologies: ["JavaScript", "Callbacks", "Higher-Order Functions"],
+            status: "Completed",
+            demoUrl: "js/Day11/task1.html",
+            codeUrl: "js/Day11/task1.html"
+          },
+          {
+            id: "js-d11-t2",
+            taskNumber: 2,
+            title: "Task 2 — Simple Closure Counter",
+            description: "Created a createCounter closure function retaining private count state across consecutive function invocations (1, 2, 3).",
+            technologies: ["JavaScript", "Closures", "Lexical Scope"],
+            status: "Completed",
+            demoUrl: "js/Day11/task2.html",
+            codeUrl: "js/Day11/task2.html"
+          },
+          {
+            id: "js-d11-t3",
+            taskNumber: 3,
+            title: "Task 3 — Array Push & Pop Operations",
+            description: "Array mutator exercises adding multiple items to the array end with push() and removing the last element with pop().",
+            technologies: ["JavaScript", "Arrays", "push()", "pop()"],
+            status: "Completed",
+            demoUrl: "js/Day11/task3.html",
+            codeUrl: "js/Day11/task3.html"
+          },
+          {
+            id: "js-d11-t4",
+            taskNumber: 4,
+            title: "Task 4 — Array Shift & Unshift Operations",
+            description: "Mutating array head by prepending new elements with unshift() and dequeuing the initial element using shift().",
+            technologies: ["JavaScript", "Arrays", "shift()", "unshift()"],
+            status: "Completed",
+            demoUrl: "js/Day11/task4.html",
+            codeUrl: "js/Day11/task4.html"
+          },
+          {
+            id: "js-d11-t5",
+            taskNumber: 5,
+            title: "Task 5 — Manual Array Push Algorithm",
+            description: "Algorithmic implementation appending an element to an array manually using for loops and index length assignment without native .push().",
+            technologies: ["JavaScript", "Algorithms", "Loops", "Array Indexing"],
+            status: "Completed",
+            demoUrl: "js/Day11/task5.html",
+            codeUrl: "js/Day11/task5.html"
+          },
+          {
+            id: "js-d11-t6",
+            taskNumber: 6,
+            title: "Task 6 — Comprehensive Array Operations & concat()",
+            description: "Executing sequential push, pop, unshift, shift, length measurements, and immutable array concatenation with concat().",
+            technologies: ["JavaScript", "Array Methods", "concat()", "Mutations"],
+            status: "Completed",
+            demoUrl: "js/Day11/task6.html",
+            codeUrl: "js/Day11/task6.html"
+          }
+        ]
       }
     ]
   },
@@ -1797,8 +1879,24 @@ const TASKS_DATA = [
     icon: "fa-brands fa-react",
     color: "#06b6d4",
     gradient: "linear-gradient(135deg, #06b6d4, #0891b2)",
-    description: "Component architecture, React Router multi-page navigation, hooks, and dynamic list rendering.",
+    description: "Component architecture, React Router multi-page navigation, hooks, state management, and dynamic list rendering.",
     days: [
+      {
+        day: 1,
+        title: "React Fundamentals & Core Architecture",
+        tasks: [
+          {
+            id: "react-d1-t1",
+            taskNumber: 1,
+            title: "React Architecture, Virtual DOM & JSX Core Notes",
+            description: "Foundational technical guide covering React library architecture, component modularity, JSX syntax, Real DOM vs Virtual DOM, and reconciliation diffing algorithms.",
+            technologies: ["React", "Virtual DOM", "JSX", "Reconciliation", "Components"],
+            status: "Completed",
+            demoUrl: "react/Day1/1. What is React.txt",
+            codeUrl: "react/Day1/1. What is React.txt"
+          }
+        ]
+      },
       {
         day: 4,
         title: "React Router & Multi-Page Navigation",
@@ -1844,6 +1942,22 @@ const TASKS_DATA = [
             status: "Completed",
             demoUrl: "react/Day7/miniroject/index.html",
             codeUrl: "react/Day7/miniroject/index.html"
+          }
+        ]
+      },
+      {
+        day: 8,
+        title: "React Hooks — useState Counter Application",
+        tasks: [
+          {
+            id: "react-d8-t1",
+            taskNumber: 1,
+            title: "Interactive Counter with useState Hook",
+            description: "Interactive React state management application utilizing the useState hook to manage live counter state with increment (+1000), decrement (-1), and reset (0) actions.",
+            technologies: ["React 19", "useState", "Hooks", "Event Handling", "Vite"],
+            status: "Completed",
+            demoUrl: "react/Day8/useset/index.html",
+            codeUrl: "react/Day8/useset/src/App.jsx"
           }
         ]
       }
