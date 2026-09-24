@@ -1865,6 +1865,124 @@ const TASKS_DATA = [
             codeUrl: "js/Day11/task6.html"
           }
         ]
+      },
+      {
+        day: 12,
+        title: "Array Methods — push, pop, shift, unshift, forEach & map",
+        tasks: [
+          {
+            id: "js-d12-t1",
+            taskNumber: 1,
+            title: "Task 1 — Array push() Method",
+            description: "Initialized an array of 5 numbers, appended 3 new numbers to the end using the push() method, and logged the final updated array.",
+            technologies: ["JavaScript", "Arrays", "push()", "Mutations"],
+            status: "Completed",
+            demoUrl: "js/Day12/task1.html",
+            codeUrl: "js/Day12/assets/js/task1.js"
+          },
+          {
+            id: "js-d12-t2",
+            taskNumber: 2,
+            title: "Task 2 — Array pop() Method",
+            description: "Created an array of 6 fruits, dequeued the last two items sequentially using pop(), and captured both the removed values and the final mutated array.",
+            technologies: ["JavaScript", "Arrays", "pop()", "Mutations"],
+            status: "Completed",
+            demoUrl: "js/Day12/task2.html",
+            codeUrl: "js/Day12/assets/js/task2.js"
+          },
+          {
+            id: "js-d12-t3",
+            taskNumber: 3,
+            title: "Task 3 — Array shift() & unshift() Methods",
+            description: "Manipulated the beginning of an array of cities by removing the first city using shift() and prepending a new city with unshift().",
+            technologies: ["JavaScript", "Arrays", "shift()", "unshift()"],
+            status: "Completed",
+            demoUrl: "js/Day12/task3.html",
+            codeUrl: "js/Day12/assets/js/task3.js"
+          },
+          {
+            id: "js-d12-t4",
+            taskNumber: 4,
+            title: "Task 4 — Array forEach() Iteration",
+            description: "Iterated through an array of student names with the forEach() higher-order function, formatting and logging each student with a 1-based index.",
+            technologies: ["JavaScript", "Higher-Order Functions", "forEach()", "Iteration"],
+            status: "Completed",
+            demoUrl: "js/Day12/task4.html",
+            codeUrl: "js/Day12/assets/js/task4.js"
+          },
+          {
+            id: "js-d12-t5",
+            taskNumber: 5,
+            title: "Task 5 — Array map() Transformation",
+            description: "Transformed an array of numbers by multiplying each value by 2 using the immutable map() method without modifying the source array.",
+            technologies: ["JavaScript", "Higher-Order Functions", "map()", "Immutability"],
+            status: "Completed",
+            demoUrl: "js/Day12/task5.html",
+            codeUrl: "js/Day12/assets/js/task5.js"
+          }
+        ]
+      },
+      {
+        day: 13,
+        title: "DOM Manipulation & Event Listeners",
+        tasks: [
+          {
+            id: "js-d13-t1",
+            taskNumber: 1,
+            title: "Task 1 — DOM Selection & Text Updating",
+            description: "Selected DOM elements using getElementById and querySelectorAll, modifying the main heading and looping through description paragraphs to dynamically update textContent.",
+            technologies: ["JavaScript", "DOM Selection", "querySelectorAll", "textContent"],
+            status: "Completed",
+            demoUrl: "js/Day13/task1.html",
+            codeUrl: "js/Day13/assets/js/task1.js"
+          },
+          {
+            id: "js-d13-t2",
+            taskNumber: 2,
+            title: "Task 2 — Button Click Event & Style Modification",
+            description: "Attached a click event listener to a button to dynamically update heading text, apply crimson inline font styling, and add a dashed border CSS class.",
+            technologies: ["JavaScript", "Event Listeners", "classList.add", "Dynamic Styles"],
+            status: "Completed",
+            demoUrl: "js/Day13/task2.html",
+            codeUrl: "js/Day13/assets/js/task2.js"
+          }
+        ]
+      },
+      {
+        day: 14,
+        title: "Dynamic Class Toggles & Animated Transitions",
+        tasks: [
+          {
+            id: "js-d14-t1",
+            taskNumber: 1,
+            title: "Task 1 — Smooth Show/Hide Accordion Toggle",
+            description: "Implemented a smooth collapsible panel that toggles visibility via classList.toggle('show') with synchronized CSS opacity/max-height transitions and dynamic button label updates.",
+            technologies: ["JavaScript", "DOM Events", "classList.toggle", "CSS Transitions"],
+            status: "Completed",
+            demoUrl: "js/Day14/task1.html",
+            codeUrl: "js/Day14/assets/js/task1.js"
+          },
+          {
+            id: "js-d14-t2",
+            taskNumber: 2,
+            title: "Task 2 — Element State Color Toggle",
+            description: "Created an interactive color switcher toggling between red and green states on a box element using classList.toggle() and smooth background color transition.",
+            technologies: ["JavaScript", "DOM Events", "classList.toggle", "State Toggle"],
+            status: "Completed",
+            demoUrl: "js/Day14/task2.html",
+            codeUrl: "js/Day14/assets/js/task2.js"
+          },
+          {
+            id: "js-d14-t3",
+            taskNumber: 3,
+            title: "Task 3 — Interactive Nature Card Details Toggle",
+            description: "Polished card UI component featuring an image, heading, and collapsible details text that animates smoothly with CSS transitions while toggling button text between 'Show Details' and 'Hide Details'.",
+            technologies: ["JavaScript", "Card UI", "classList.toggle", "Accordion", "CSS Transitions"],
+            status: "Completed",
+            demoUrl: "js/Day14/task3.html",
+            codeUrl: "js/Day14/assets/js/task3.js"
+          }
+        ]
       }
     ]
   },

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Toggle Task</title>
+  <style>
+    /* Default state: Red box */
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: red;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Green state triggered via toggle */
+    .box.green {
+      background-color: green;
+    }
+
+    button {
+      padding: 10px 18px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Box element with initial class -->
+  <div id="colorBox" class="box"></div>
+
+  <!-- Trigger button -->
+  <button id="toggleColorBtn">Toggle Color</button>
+
+  <script src="assets/js/task2.js"></script>
+</body>
+</html>
