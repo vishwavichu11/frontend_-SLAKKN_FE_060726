@@ -1983,6 +1983,38 @@ const TASKS_DATA = [
             codeUrl: "js/Day14/assets/js/task3.js"
           }
         ]
+      },
+      {
+        day: 15,
+        title: "ClassList Manipulation & DOM Theme Toggle",
+        tasks: [
+          {
+            id: "js-d15-t1",
+            taskNumber: 1,
+            title: "Task 1 — ClassList add, remove, toggle & Input Extraction",
+            description: "Comprehensive DOM interaction covering classList.add() for active highlights, classList.remove(), theme toggling on card components, and extracting user input values on submit.",
+            technologies: ["JavaScript", "DOM Manipulation", "classList.add", "classList.remove", "classList.toggle", "Inputs"],
+            status: "Completed",
+            demoUrl: "js/Day15/task1.html",
+            codeUrl: "js/Day15/assets/js/task1.js"
+          }
+        ]
+      },
+      {
+        day: 16,
+        title: "Dynamic Student Management & Tailwind UI",
+        tasks: [
+          {
+            id: "js-d16-t1",
+            taskNumber: 1,
+            title: "Task 1 — Student Details Form & Dynamic Tailwind Cards",
+            description: "Interactive student data management system with Tailwind CSS styling. Captures form inputs (name, age, city), pushes student objects into an array, and dynamically renders cards via forEach() with form reset.",
+            technologies: ["JavaScript", "Tailwind CSS", "Form Events", "DOM Rendering", "Objects & Arrays"],
+            status: "Completed",
+            demoUrl: "js/Day16/task1.html",
+            codeUrl: "js/Day16/assets/js/task1.js"
+          }
+        ]
       }
     ]
   },
@@ -2076,6 +2108,22 @@ const TASKS_DATA = [
             status: "Completed",
             demoUrl: "react/Day8/useset/index.html",
             codeUrl: "react/Day8/useset/src/App.jsx"
+          }
+        ]
+      },
+      {
+        day: 9,
+        title: "React Form Handling & Controlled State",
+        tasks: [
+          {
+            id: "react-d9-t1",
+            taskNumber: 1,
+            title: "Controlled Form Handling & Record Collection",
+            description: "Controlled form input management in React 19 using useState. Tracks user name and age with two-way binding, constructs unique objects with Date.now(), appends them to array state, and resets inputs.",
+            technologies: ["React 19", "Controlled Inputs", "useState", "Form Handling", "Vite"],
+            status: "Completed",
+            demoUrl: "react/Day9/formhandling/index.html",
+            codeUrl: "react/Day9/formhandling/src/App.jsx"
           }
         ]
       }
