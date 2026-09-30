@@ -2015,6 +2015,98 @@ const TASKS_DATA = [
             codeUrl: "js/Day16/assets/js/task1.js"
           }
         ]
+      },
+      {
+        day: 17,
+        title: "LocalStorage Authentication & Protected Dashboard Portal",
+        tasks: [
+          {
+            id: "js-d17-t1",
+            taskNumber: 1,
+            title: "User Registration with LocalStorage Validation",
+            description: "Full account creation portal styled with Tailwind CSS. Checks for duplicate emails in LocalStorage, generates unique user IDs (USR-xxxx), logs timestamped records, and redirects to login.",
+            technologies: ["JavaScript", "Tailwind CSS", "LocalStorage", "Form Handling", "Validation"],
+            status: "Completed",
+            demoUrl: "js/Day17/register.html",
+            codeUrl: "js/Day17/assets/js/register.js"
+          },
+          {
+            id: "js-d17-t2",
+            taskNumber: 2,
+            title: "User Login & Active Session Management",
+            description: "Authentication portal checking user credentials against stored records in LocalStorage. Creates and stores an active session object upon successful match and routes to user dashboard.",
+            technologies: ["JavaScript", "Tailwind CSS", "LocalStorage", "Authentication", "Session State"],
+            status: "Completed",
+            demoUrl: "js/Day17/login.html",
+            codeUrl: "js/Day17/assets/js/login.js"
+          },
+          {
+            id: "js-d17-t3",
+            taskNumber: 3,
+            title: "Protected User Dashboard & Session Logout",
+            description: "Authenticated dashboard interface guarded by a session checker. Dynamically displays user ID, full name, email, avatar badge, and joined date, with secure session destruction on logout.",
+            technologies: ["JavaScript", "Tailwind CSS", "LocalStorage", "Auth Guard", "Dynamic UI"],
+            status: "Completed",
+            demoUrl: "js/Day17/dashboard.html",
+            codeUrl: "js/Day17/assets/js/dashboard.js"
+          }
+        ]
+      },
+      {
+        day: 18,
+        title: "Asynchronous JavaScript — Callbacks, Promises, Async/Await & Fetch",
+        tasks: [
+          {
+            id: "js-d18-t1",
+            taskNumber: 1,
+            title: "Callback Functions with Arrow Syntax",
+            description: "Practical implementations of callback functions using modern arrow functions: defined inline, passed as separate arguments, and built-in asynchronous timers (setTimeout) and iterators.",
+            technologies: ["JavaScript", "Callbacks", "Arrow Functions", "Higher-Order Functions"],
+            status: "Completed",
+            demoUrl: "js/Day18/task1.html",
+            codeUrl: "js/Day18/assets/js/task1.js"
+          },
+          {
+            id: "js-d18-t2",
+            taskNumber: 2,
+            title: "Promise Creation with Resolve & Reject",
+            description: "Foundational Promise construction using new Promise((resolve, reject) => ...) with conditional state handling and chained consumption via .then(), .catch(), and .finally().",
+            technologies: ["JavaScript", "Promises", "Async", "resolve / reject", "Chaining"],
+            status: "Completed",
+            demoUrl: "js/Day18/task2.html",
+            codeUrl: "js/Day18/assets/js/task2.js"
+          },
+          {
+            id: "js-d18-t3",
+            taskNumber: 3,
+            title: "Data Fetch Simulation with Promise Handling",
+            description: "Simulating asynchronous network responses with Promises, handling data delivery in .then(), catching failure states in .catch(), and running teardown routines in .finally().",
+            technologies: ["JavaScript", "Promises", "Async", "Error Handling"],
+            status: "Completed",
+            demoUrl: "js/Day18/task3.html",
+            codeUrl: "js/Day18/assets/js/task3.js"
+          },
+          {
+            id: "js-d18-t4",
+            taskNumber: 4,
+            title: "Async / Await with JSONPlaceholder API",
+            description: "Modern asynchronous control flow using async/await syntax to fetch real REST API data from JSONPlaceholder, parse JSON asynchronously, and handle exceptions via try...catch.",
+            technologies: ["JavaScript", "async / await", "fetch()", "REST API", "try / catch"],
+            status: "Completed",
+            demoUrl: "js/Day18/task4.html",
+            codeUrl: "js/Day18/assets/js/task4.js"
+          },
+          {
+            id: "js-d18-t5",
+            taskNumber: 5,
+            title: "Fetch API & HTTP Status Validation",
+            description: "Robust Promise-based network communication using fetch() with HTTP response status validation (response.ok), custom error throwing, and clean error interception.",
+            technologies: ["JavaScript", "Fetch API", "HTTP Validation", "JSON", "Error Handling"],
+            status: "Completed",
+            demoUrl: "js/Day18/task5.html",
+            codeUrl: "js/Day18/assets/js/task5.js"
+          }
+        ]
       }
     ]
   },
