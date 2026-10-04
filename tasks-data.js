@@ -2140,6 +2140,22 @@ const TASKS_DATA = [
         ]
       },
       {
+        day: 2,
+        title: "Modular Component Architecture & Props",
+        tasks: [
+          {
+            id: "react-d2-t1",
+            taskNumber: 1,
+            title: "Reusable Component Architecture (Card, Input & Button)",
+            description: "Built modular React components with Tailwind CSS styling. Implemented reusable Card, Input, and Button components utilizing props, arrow function syntax, and form submission with useState.",
+            technologies: ["React 19", "Components", "Props", "Tailwind CSS", "useState"],
+            status: "Completed",
+            demoUrl: "react/Day2/Day2task/index.html",
+            codeUrl: "react/Day2/Day2task/src/App.jsx"
+          }
+        ]
+      },
+      {
         day: 4,
         title: "React Router & Multi-Page Navigation",
         tasks: [
@@ -2168,6 +2184,22 @@ const TASKS_DATA = [
             status: "Completed",
             demoUrl: "react/Day5/rendering/index.html",
             codeUrl: "react/Day5/rendering/index.html"
+          }
+        ]
+      },
+      {
+        day: 6,
+        title: "React Router Navigation & Dynamic List Mapping",
+        tasks: [
+          {
+            id: "react-d6-t1",
+            taskNumber: 1,
+            title: "Multi-Route Navigation & Non-Primitive Data Mapping",
+            description: "Configured multi-page React Router navigation (Home, About, Contact, Service, Help) with navbar, combined with array mapping for courses and dynamic object property rendering for student profiles.",
+            technologies: ["React Router", "Vite", "Array map()", "Object Display", "Components"],
+            status: "Completed",
+            demoUrl: "react/Day6/index.html",
+            codeUrl: "react/Day6/src/App.jsx"
           }
         ]
       },
@@ -2216,6 +2248,32 @@ const TASKS_DATA = [
             status: "Completed",
             demoUrl: "react/Day9/formhandling/index.html",
             codeUrl: "react/Day9/formhandling/src/App.jsx"
+          }
+        ]
+      },
+      {
+        day: 10,
+        title: "Complex Form State Management & Dynamic Objects",
+        tasks: [
+          {
+            id: "react-d10-t1",
+            taskNumber: 1,
+            title: "Task 1 — Student Registration Form with Dynamic Keys",
+            description: "Managed complex object state using computed property names [name]: value to capture 5 student fields (name, email, age, course, city) in a single dynamic handler.",
+            technologies: ["React 19", "Object State", "Computed Properties", "Form Handling"],
+            status: "Completed",
+            demoUrl: "react/Day10/index.html",
+            codeUrl: "react/Day10/src/App.jsx"
+          },
+          {
+            id: "react-d10-t2",
+            taskNumber: 2,
+            title: "Task 2 — Employee Details Form with Result Card",
+            description: "Handled full employee lifecycle form: inputs for name, ID, department, role, and salary, updating state, resetting form inputs upon submit, and rendering a formatted card with currency display.",
+            technologies: ["React 19", "Controlled State", "Conditional Rendering", "DOM Reset"],
+            status: "Completed",
+            demoUrl: "react/Day10/index.html",
+            codeUrl: "react/Day10/src/App.jsx"
           }
         ]
       }
