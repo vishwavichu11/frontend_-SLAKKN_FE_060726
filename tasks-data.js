@@ -2278,6 +2278,115 @@ const TASKS_DATA = [
         ]
       }
     ]
+  },
+
+  // ============================================================================
+  // 7. SQL CATEGORY (DATABASE & QUERY ARCHITECTURE)
+  // ============================================================================
+  {
+    id: "sql",
+    name: "SQL",
+    badgeText: "Database & Queries",
+    icon: "fa-solid fa-database",
+    color: "#0284c7",
+    gradient: "linear-gradient(135deg, #0284c7, #0369a1)",
+    description: "Relational database architecture, DDL table definitions, DML record operations, constraints, conditional updates, pattern matching, aggregate functions, and GROUP BY / HAVING queries.",
+    days: [
+      {
+        day: 1,
+        title: "DDL Schema Creation & Data Ingestion",
+        tasks: [
+          {
+            id: "sql-d1-t1",
+            taskNumber: 1,
+            title: "Employee Table Definition & Record Ingestion",
+            description: "Created Employeee table with primary key, auto-increment, unique email, decimal salary, and date types; inserted multiple developer and designer records.",
+            technologies: ["SQL", "DDL", "CREATE TABLE", "AUTO_INCREMENT", "INSERT INTO"],
+            status: "Completed",
+            demoUrl: "sql/Day1/Employeee.sql",
+            codeUrl: "sql/Day1/Employeee.sql"
+          },
+          {
+            id: "sql-d1-t2",
+            taskNumber: 2,
+            title: "Government Offices Directory with ENUM & Timestamps",
+            description: "Structured public office directory schema with office codes, ENUM active/inactive status, default timestamps, and address partitioning.",
+            technologies: ["SQL", "ENUM", "TIMESTAMP", "UNIQUE", "Constraints"],
+            status: "Completed",
+            demoUrl: "sql/Day1/Government_Offfices.sql",
+            codeUrl: "sql/Day1/Government_Offfices.sql"
+          },
+          {
+            id: "sql-d1-t3",
+            taskNumber: 3,
+            title: "Product Inventory with Check Constraints",
+            description: "Engineered retail product inventory with cost vs selling price decimals, SKU uniqueness, and non-negative stock quantity CHECK constraints.",
+            technologies: ["SQL", "CHECK Constraint", "DECIMAL", "Inventory", "Data Integrity"],
+            status: "Completed",
+            demoUrl: "sql/Day1/Prodducts.sql",
+            codeUrl: "sql/Day1/Prodducts.sql"
+          }
+        ]
+      },
+      {
+        day: 2,
+        title: "DML Operations, Schema Alterations & Constraints",
+        tasks: [
+          {
+            id: "sql-d2-t1",
+            taskNumber: 1,
+            title: "Students Base Table Architecture",
+            description: "Defined core Students schema and performed initial record insertions across engineering departments and cities.",
+            technologies: ["SQL", "CREATE TABLE", "Schema Design", "INSERT INTO"],
+            status: "Completed",
+            demoUrl: "sql/Day2/Students.sql",
+            codeUrl: "sql/Day2/Students.sql"
+          },
+          {
+            id: "sql-d2-t2",
+            taskNumber: 2,
+            title: "Comprehensive DDL Alterations & Conditional Updates",
+            description: "Executed ALTER TABLE to add/drop columns, conditional multi-column UPDATE queries, safe-update override, targeted DELETE statements, and automatic ON UPDATE CURRENT_TIMESTAMP tracking.",
+            technologies: ["SQL", "ALTER TABLE", "UPDATE", "DELETE", "TIMESTAMP ON UPDATE"],
+            status: "Completed",
+            demoUrl: "sql/Day2/Student.sql",
+            codeUrl: "sql/Day2/Student.sql"
+          }
+        ]
+      },
+      {
+        day: 3,
+        title: "Advanced Filtering, Pattern Matching & Operators",
+        tasks: [
+          {
+            id: "sql-d3-t1",
+            taskNumber: 1,
+            title: "Conditional Queries, CASE Statements & Wildcard Matching",
+            description: "Practiced rich query operators: CASE WHEN updates, comparison operators, logical AND/OR, membership IN/NOT IN, NULL checks, BETWEEN ranges, LIKE wildcards, DISTINCT deduplication, and column aliasing.",
+            technologies: ["SQL", "CASE WHEN", "BETWEEN", "LIKE", "DISTINCT", "Aliasing"],
+            status: "Completed",
+            demoUrl: "sql/Day3/employees.sql",
+            codeUrl: "sql/Day3/employees.sql"
+          }
+        ]
+      },
+      {
+        day: 4,
+        title: "Aggregate Functions & GROUP BY / HAVING Reporting",
+        tasks: [
+          {
+            id: "sql-d4-t1",
+            taskNumber: 1,
+            title: "Departmental Aggregations & Grouped Metrics",
+            description: "Built multi-dimensional reporting queries utilizing COUNT(), SUM(), AVG(), MAX(), and MIN() aggregates combined with GROUP BY and post-aggregation HAVING filtering.",
+            technologies: ["SQL", "GROUP BY", "HAVING", "COUNT", "SUM", "AVG", "Reporting"],
+            status: "Completed",
+            demoUrl: "sql/Day4/employees.sql",
+            codeUrl: "sql/Day4/employees.sql"
+          }
+        ]
+      }
+    ]
   }
 ];
 

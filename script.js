@@ -507,7 +507,8 @@
       tailwind: 'Tailwind CSS',
       bootstrap: 'Bootstrap',
       js: 'JavaScript',
-      react: 'React'
+      react: 'React',
+      sql: 'SQL'
     };
     DOM.activeFilterIndicator.textContent = `Filter: ${filterNames[categoryKey] || categoryKey}`;
 
@@ -622,10 +623,59 @@
     DOM.modalTaskBadge.style.color = category.color;
 
     if (demoUrl) {
-      DOM.previewIframe.src = demoUrl;
       DOM.modalExternalLink.href = demoUrl;
       DOM.modalExternalLink.style.display = 'inline-flex';
       DOM.modalFooterUrl.textContent = demoUrl;
+
+      if (demoUrl.endsWith('.sql')) {
+        fetch(demoUrl)
+          .then(res => res.text())
+          .then(sqlContent => {
+            const escaped = sqlContent.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            DOM.previewIframe.srcdoc = `
+              <!DOCTYPE html>
+              <html>
+              <head>
+                <meta charset="UTF-8">
+                <style>
+                  body {
+                    margin: 0;
+                    padding: 24px;
+                    background: #0f172a;
+                    color: #e2e8f0;
+                    font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+                    font-size: 13.5px;
+                    line-height: 1.6;
+                    white-space: pre-wrap;
+                    word-break: break-word;
+                  }
+                  .sql-tag {
+                    display: inline-block;
+                    margin-bottom: 16px;
+                    padding: 4px 10px;
+                    background: rgba(2, 132, 199, 0.2);
+                    color: #38bdf8;
+                    border: 1px solid rgba(2, 132, 199, 0.35);
+                    border-radius: 6px;
+                    font-size: 12px;
+                    font-weight: 600;
+                  }
+                </style>
+              </head>
+              <body>
+                <span class="sql-tag"><i class="fa-solid fa-database"></i> SQL Script Source</span>
+                <pre style="margin: 0;"><code>${escaped}</code></pre>
+              </body>
+              </html>
+            `;
+          })
+          .catch(() => {
+            DOM.previewIframe.src = demoUrl;
+          });
+      } else {
+        DOM.previewIframe.removeAttribute('srcdoc');
+        DOM.previewIframe.src = demoUrl;
+      }
 
       // Smart auto-recovery for casing mismatches (css/ vs CSS/)
       DOM.previewIframe.onload = function() {

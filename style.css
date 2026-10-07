@@ -25,6 +25,8 @@
   --cat-js-bg: rgba(234, 179, 8, 0.12);
   --cat-react: #06b6d4;
   --cat-react-bg: rgba(6, 182, 212, 0.12);
+  --cat-sql: #0284c7;
+  --cat-sql-bg: rgba(2, 132, 199, 0.12);
 
   /* Light Theme Variables (Default) */
   --bg-page: #f8fafc;
